@@ -1,0 +1,30 @@
+{
+  "plants": [
+    { "name": "Strelitzia du salon", "species": "Strelitzia reginae", "location": "indoor", "light": "full_sun", "notes": "Aime plein soleil après acclimatation." },
+    { "name": "Ficus Tineke", "species": "Ficus elastica 'Tineke'", "location": "indoor", "light": "bright_indirect", "notes": "Laisser sécher 1/3 du terreau." },
+    { "name": "Fougère Boston", "species": "Nephrolepis exaltata", "location": "indoor", "light": "shade", "notes": "Humidité élevée 60–70%." },
+    { "name": "Olivier terrasse", "species": "Olea europaea", "location": "outdoor", "light": "full_sun", "notes": "Plein soleil, taille printemps." },
+    { "name": "Aeonium", "species": "Aeonium arboreum", "location": "outdoor", "light": "full_sun", "notes": "Monocarpique, préserver rejets." },
+    { "name": "Cactus poilu", "species": "Cleistocactus/Espostoa", "location": "outdoor", "light": "full_sun", "notes": "Hiver sec." }
+  ],
+  "rules": [
+    { "species": "Strelitzia reginae", "action": "water", "method": "2×/sem. en été, terre humide 3–4 cm", "rrule": "FREQ=WEEKLY;BYDAY=TU,FR", "seasonMonths": [5,6,7,8] },
+    { "species": "Strelitzia reginae", "action": "fertilize", "method": "Engrais plantes fleuries 1×/mois", "rrule": "FREQ=MONTHLY;BYMONTHDAY=1", "seasonMonths": [3,4,5,6,7,8,9] },
+    { "species": "Strelitzia reginae", "action": "move_out", "method": "Sortie progressive au soleil (>15°C)", "rrule": "FREQ=YEARLY;BYMONTH=4;BYMONTHDAY=15" },
+    { "species": "Strelitzia reginae", "action": "move_in", "method": "Rentrer avant nuits <10°C", "rrule": "FREQ=YEARLY;BYMONTH=10;BYMONTHDAY=15" },
+
+    { "species": "Ficus elastica 'Tineke'", "action": "water", "method": "Arroser quand 1/3 du terreau est sec", "rrule": "FREQ=WEEKLY;BYDAY=WE", "seasonMonths": [3,4,5,6,7,8,9] },
+    { "species": "Ficus elastica 'Tineke'", "action": "clean", "method": "Nettoyer feuilles à l’éponge humide", "rrule": "FREQ=MONTHLY;BYMONTHDAY=1" },
+    { "species": "Ficus elastica 'Tineke'", "action": "fertilize", "method": "Engrais plantes vertes 1×/mois", "rrule": "FREQ=MONTHLY;BYMONTHDAY=1", "seasonMonths": [3,4,5,6,7,8,9] },
+
+    { "species": "Nephrolepis exaltata", "action": "water", "method": "Terreau toujours légèrement humide", "rrule": "FREQ=WEEKLY;BYDAY=MO,FR" },
+    { "species": "Nephrolepis exaltata", "action": "mist", "method": "Brumiser 2–3×/sem. si air sec", "rrule": "FREQ=WEEKLY;BYDAY=MO,WE,FR", "seasonMonths": [11,12,1,2] },
+
+    { "species": "Olea europaea", "action": "water", "method": "Modéré, laisser sécher entre 2 arrosages", "rrule": "FREQ=WEEKLY;BYDAY=TH", "seasonMonths": [4,5,6,7,8,9,10] },
+    { "species": "Olea europaea", "action": "fertilize", "method": "Engrais spécial olivier", "rrule": "FREQ=MONTHLY;BYMONTHDAY=1", "seasonMonths": [4,5,6,7,8] },
+
+    { "species": "Aeonium arboreum", "action": "water", "method": "Léger 1×/sem. (mars–oct), quasi sec l'hiver", "rrule": "FREQ=WEEKLY;BYDAY=TU", "seasonMonths": [3,4,5,6,7,8,9,10] },
+
+    { "species": "Cleistocactus/Espostoa", "action": "water", "method": "Léger toutes 3–4 sem. (été), sec l’hiver", "rrule": "FREQ=MONTHLY;INTERVAL=1;BYMONTH=6,7,8" }
+  ]
+}
