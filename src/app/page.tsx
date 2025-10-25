@@ -1,6 +1,7 @@
 // server component
 import { startOfWeek, addDays, formatISO, format } from "date-fns";
 import { fr } from "date-fns/locale";
+import Image from "next/image";
 
 type UIEvent = {
   id: number;
@@ -44,7 +45,16 @@ export default async function Page() {
                   {dayEvents.length === 0 && <li className="text-sm text-neutral-500">Rien à faire.</li>}
                   {dayEvents.map(ev => (
                     <li key={ev.id} className="flex items-start gap-2">
-                      {ev.action_icon && <img src={ev.action_icon} className="w-4 h-4 mt-0.5" alt="" />}
+                      {ev.action_icon && (
+                        <Image
+                          src={ev.action_icon}
+                          alt=""
+                          width={16}
+                          height={16}
+                          className="mt-0.5"
+                          unoptimized
+                        />
+                      )}
                       <div className="text-sm">
                         <span className="font-semibold">{label(ev.kind)}</span>
                         {ev.notes ? <span className="text-neutral-600"> — {ev.notes}</span> : null}

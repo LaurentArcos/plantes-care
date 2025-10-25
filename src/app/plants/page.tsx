@@ -1,5 +1,6 @@
 // server component
 import Image from "next/image";
+import Link from "next/link";
 
 type UIPlant = {
   plant_id: number;
@@ -7,7 +8,7 @@ type UIPlant = {
   common_name: string;
   latin_name: string;
   location_name: string | null;
-  indoor: 0|1|null;
+  indoor: 0 | 1 | null;
   exposure: "N"|"E"|"S"|"W"|"NE"|"SE"|"SW"|"NW"|"none"|null;
   light_icon: string;
   type_icon: string;
@@ -36,13 +37,15 @@ export default async function PlantsPage() {
       <section className="p-4 md:p-5 bg-white border rounded-2xl">
         <div className="flex items-center justify-between mb-3">
           <h2 className="text-lg md:text-xl font-semibold">Plantes</h2>
-          {/* bouton + plus tard */}
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4">
-          {plants.map(p => (
-            <a key={p.plant_id} href={`/plants/${p.plant_id}`} className="overflow-hidden border rounded-2xl bg-white hover:shadow-md transition">
-              {/* photo */}
+          {plants.map((p) => (
+            <Link
+              key={p.plant_id}
+              href={{ pathname: "/plants/[id]", query: { id: String(p.plant_id) } }}
+              className="overflow-hidden border rounded-2xl bg-white hover:shadow-md transition"
+            >
               <div className="relative aspect-[16/10] bg-gray-100">
                 {p.photo_url && (
                   <Image
@@ -55,46 +58,41 @@ export default async function PlantsPage() {
                 )}
               </div>
 
-              {/* contenu */}
               <div className="p-3">
                 <div className="flex items-center gap-2">
-                  <img src={p.type_icon} alt="" className="w-5 h-5" />
+                  <Image src={p.type_icon} alt="" width={20} height={20} unoptimized />
                   <div className="font-medium">{p.display_name}</div>
                 </div>
                 <div className="text-xs text-neutral-600 italic">{p.latin_name}</div>
 
-                {/* ligne d’icônes */}
                 <div className="mt-2 flex items-center gap-3">
-                  <img src={p.light_icon} alt="lumière" className="w-5 h-5" />
+                  <Image src={p.light_icon} alt="lumière" width={20} height={20} unoptimized />
 
-                  {/* gouttes */}
                   <div className="flex items-center gap-0.5">
                     {Array.from({ length: p.water_drops }).map((_, i) => (
-                      <img key={`wf-${i}`} src={p.water_drop_full_icon} className="w-4 h-4" alt="eau" />
+                      <Image key={`wf-${i}`} src={p.water_drop_full_icon} width={16} height={16} alt="eau" unoptimized />
                     ))}
                     {Array.from({ length: 3 - p.water_drops }).map((_, i) => (
-                      <img key={`we-${i}`} src={p.water_drop_empty_icon} className="w-4 h-4" alt="eau" />
+                      <Image key={`we-${i}`} src={p.water_drop_empty_icon} width={16} height={16} alt="eau" unoptimized />
                     ))}
                   </div>
 
-                  {/* humidité cible */}
                   {typeof p.humidity_pct_target === "number" && (
                     <div className="flex items-center gap-1 text-xs">
-                      <img src={p.humidity_icon} className="w-4 h-4" alt="humidité" />
+                      <Image src={p.humidity_icon} width={16} height={16} alt="humidité" unoptimized />
                       <span>{p.humidity_pct_target}%</span>
                     </div>
                   )}
 
-                  {/* indoor / expo */}
-                  <img src={p.indoor_icon} className="w-4 h-4" alt="lieu" />
-                  {p.exposure_icon && <img src={p.exposure_icon} className="w-4 h-4" alt="exposition" />}
+                  <Image src={p.indoor_icon} width={16} height={16} alt="lieu" unoptimized />
+                  {p.exposure_icon && <Image src={p.exposure_icon} width={16} height={16} alt="exposition" unoptimized />}
                 </div>
 
                 <div className="mt-1 text-xs text-neutral-600">
                   {p.location_name ?? "—"}
                 </div>
               </div>
-            </a>
+            </Link>
           ))}
 
           {plants.length === 0 && (

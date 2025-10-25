@@ -2,14 +2,18 @@
 import Image from "next/image";
 
 async function getPlant(id: string) {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/plants?id=${id}`, { cache: "no-store" });
+  const res = await fetch(
+    `${process.env.NEXT_PUBLIC_BASE_URL}/api/plants?id=${id}`,
+    { cache: "no-store" }
+  );
   if (!res.ok) throw new Error("fetch plant failed");
   const arr = await res.json();
   return arr[0];
 }
 
-export default async function PlantDetail({ params }: { params: { id: string } }) {
-  const p = await getPlant(params.id);
+export default async function PlantDetail(props: { params: Promise<{ id: string }> }) {
+  const { id } = await props.params;
+  const p = await getPlant(id);
 
   if (!p) return <div className="text-sm text-neutral-500">Introuvable.</div>;
 
@@ -23,29 +27,29 @@ export default async function PlantDetail({ params }: { params: { id: string } }
         </div>
         <div className="p-4">
           <div className="flex items-center gap-2">
-            <img src={p.type_icon} className="w-6 h-6" alt="" />
+            <Image src={p.type_icon} width={24} height={24} alt="" unoptimized />
             <h2 className="text-xl font-semibold">{p.display_name}</h2>
           </div>
           <div className="text-sm text-neutral-600 italic">{p.latin_name}</div>
 
           <div className="mt-3 flex flex-wrap items-center gap-3">
-            <img src={p.light_icon} className="w-5 h-5" alt="lumière" />
+            <Image src={p.light_icon} width={20} height={20} alt="lumière" unoptimized />
             <div className="flex items-center gap-0.5">
               {Array.from({ length: p.water_drops }).map((_, i) => (
-                <img key={`wf-${i}`} src={p.water_drop_full_icon} className="w-4 h-4" alt="eau" />
+                <Image key={`wf-${i}`} src={p.water_drop_full_icon} width={16} height={16} alt="eau" unoptimized />
               ))}
               {Array.from({ length: 3 - p.water_drops }).map((_, i) => (
-                <img key={`we-${i}`} src={p.water_drop_empty_icon} className="w-4 h-4" alt="eau" />
+                <Image key={`we-${i}`} src={p.water_drop_empty_icon} width={16} height={16} alt="eau" unoptimized />
               ))}
             </div>
             {typeof p.humidity_pct_target === "number" && (
               <div className="flex items-center gap-1 text-sm">
-                <img src={p.humidity_icon} className="w-4 h-4" alt="humidité" />
+                <Image src={p.humidity_icon} width={16} height={16} alt="humidité" unoptimized />
                 <span>{p.humidity_pct_target}%</span>
               </div>
             )}
-            <img src={p.indoor_icon} className="w-4 h-4" alt="lieu" />
-            {p.exposure_icon && <img src={p.exposure_icon} className="w-4 h-4" alt="exposition" />}
+            <Image src={p.indoor_icon} width={16} height={16} alt="lieu" unoptimized />
+            {p.exposure_icon && <Image src={p.exposure_icon} width={16} height={16} alt="exposition" unoptimized />}
           </div>
 
           <div className="mt-2 text-sm text-neutral-700">
