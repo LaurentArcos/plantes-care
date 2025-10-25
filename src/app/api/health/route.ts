@@ -5,7 +5,8 @@ export async function GET() {
   try {
     await db.query("SELECT 1");
     return NextResponse.json({ ok: true });
-  } catch (e: any) {
-    return NextResponse.json({ ok: false, error: String(e?.message ?? e) }, { status: 500 });
+  } catch (e: unknown) {
+    const message = e instanceof Error ? e.message : String(e);
+    return NextResponse.json({ ok: false, error: message }, { status: 500 });
   }
 }
