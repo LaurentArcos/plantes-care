@@ -1,5 +1,5 @@
-import "./../styles/globals.css";
-import type { Metadata } from "next";
+import "../styles/globals.css";
+import type { Metadata, Route } from "next";
 import ServiceWorkerRegister from "@/components/ServiceWorkerRegister";
 import Link from "next/link";
 
@@ -20,27 +20,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <nav className="flex gap-2">
               <Link
                 className="inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-medium border border-gray-300 hover:bg-gray-100"
-                href="/"
+                href={"/" as Route}
               >
                 Dashboard
               </Link>
               <Link
                 className="inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-medium border border-gray-300 hover:bg-gray-100"
-                href="/plants"
+                href={"/plants" as Route}
               >
                 Plantes
               </Link>
               <Link
                 className="inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-medium border border-gray-300 hover:bg-gray-100"
-                href="/rules"
+                href={"/rules" as Route}
               >
                 Règles
-              </Link>
-              <Link
-                className="inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-medium border border-gray-300 hover:bg-gray-100"
-                href="/settings"
-              >
-                Réglages
               </Link>
             </nav>
           </div>
