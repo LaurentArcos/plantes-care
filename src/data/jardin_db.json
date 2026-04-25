@@ -1,0 +1,4278 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "generated_at": "2026-04-25T22:09:38",
+    "jardin": {
+      "nom": "Jardin de La Farlède",
+      "lieu": "La Farlède (Var, France)",
+      "climat": "méditerranéen",
+      "specificites": [
+        "exposition au mistral",
+        "sécheresse estivale",
+        "gelées rares"
+      ]
+    },
+    "plantes_count": {
+      "total": 23,
+      "outdoor": 19,
+      "indoor": 4
+    }
+  },
+  "categories": {
+    "TAILLE": {
+      "label": "Taille",
+      "color": "#A85234"
+    },
+    "TAILLE LÉGÈRE": {
+      "label": "Taille légère",
+      "color": "#C26C50"
+    },
+    "ARROSAGE": {
+      "label": "Arrosage",
+      "color": "#2E6BAA"
+    },
+    "FERTILISATION": {
+      "label": "Fertilisation",
+      "color": "#5D9F4D"
+    },
+    "TRAITEMENT": {
+      "label": "Traitement",
+      "color": "#A8512E"
+    },
+    "FLORAISON": {
+      "label": "Floraison",
+      "color": "#C7336C"
+    },
+    "RÉCOLTE": {
+      "label": "Récolte",
+      "color": "#823D8A"
+    },
+    "PROTECTION": {
+      "label": "Protection",
+      "color": "#C74E33"
+    },
+    "OBSERVATION": {
+      "label": "Observation",
+      "color": "#569E5C"
+    },
+    "NETTOYAGE": {
+      "label": "Nettoyage",
+      "color": "#7A7A7A"
+    },
+    "REPOS": {
+      "label": "Repos",
+      "color": "#3A3A3A"
+    },
+    "DIVISION": {
+      "label": "Division",
+      "color": "#7A8B5C"
+    },
+    "PALISSAGE": {
+      "label": "Palissage",
+      "color": "#8B6B3A"
+    },
+    "PRÉPARATION": {
+      "label": "Préparation",
+      "color": "#A88E5A"
+    },
+    "PAILLAGE": {
+      "label": "Paillage",
+      "color": "#6B5535"
+    },
+    "SURVEILLANCE": {
+      "label": "Surveillance",
+      "color": "#3A6B5A"
+    },
+    "ENTRETIEN": {
+      "label": "Entretien",
+      "color": "#A85234"
+    }
+  },
+  "category_order": [
+    "TAILLE",
+    "TAILLE LÉGÈRE",
+    "ARROSAGE",
+    "FERTILISATION",
+    "TRAITEMENT",
+    "FLORAISON",
+    "RÉCOLTE",
+    "DIVISION",
+    "NETTOYAGE",
+    "PALISSAGE",
+    "PAILLAGE",
+    "PRÉPARATION",
+    "PROTECTION",
+    "SURVEILLANCE",
+    "OBSERVATION",
+    "REPOS",
+    "ENTRETIEN"
+  ],
+  "plants": [
+    {
+      "id": "olivier",
+      "nom": "Olivier",
+      "nom_scientifique": "Olea europaea",
+      "famille": "Oléacées",
+      "page_manuel": 1,
+      "caracteristiques": {
+        "Type": "Arbre fruitier persistant, feuillage argenté",
+        "Taille adulte": "4 à 10 m (taillable à volonté)",
+        "Longévité": "Plusieurs centaines à milliers d'années",
+        "Origine": "Bassin méditerranéen",
+        "Rusticité": "Jusqu'à -10 à -12 °C",
+        "Vent / mistral": "Excellente ★★★★★",
+        "Sécheresse": "Excellente ★★★★★",
+        "Exposition": "Plein soleil INDISPENSABLE",
+        "Sol": "Drainant impératif, caillouteux OK"
+      },
+      "arrosage": {
+        "Printemps": "Adulte : aucun / Jeune : 1×/15 jours",
+        "Été": "Adulte : 1×/mois si canicule / Jeune : 1×/sem.",
+        "Automne": "Pluies suffisantes",
+        "Hiver": "Aucun arrosage"
+      },
+      "caracteristiques_decoratives": {
+        "Période": "Mai-juin (discrète)",
+        "Fleurs": "Petites grappes blanc crème",
+        "Récolte": "Novembre à janvier",
+        "Production": "Après 4-7 ans, pleine à 15-20 ans"
+      },
+      "taille_nettoyage": "Quand : fin d'hiver (février-mars) hors gel, ou après récolte. Fréquence : 1×/an entretien, tous les 2-3 ans pour taille de fructification. Méthode (taille en gobelet) : 3-4 branches charpentières formant un vase ouvert. Retirer les gourmands (verticaux), les rejets du pied, les branches mortes/malades et celles qui se croisent. Éclaircir le centre : 'une hirondelle doit pouvoir traverser l'arbre'. La lumière au centre = fructification. Ne jamais tailler sévèrement un jeune sujet. Outils : sécateur, ébrancheur, scie d'élagage, tous désinfectés.",
+      "calendrier_saisonnier": {
+        "printemps": [
+          "TAILLE fév-mars hors gel",
+          "Engrais organique mars",
+          "Surveillance œil-de-paon",
+          "Floraison mai-juin"
+        ],
+        "ete": [
+          "Nouaison des fruits",
+          "Surveillance mouche olive +++",
+          "Arrosage adulte si canicule",
+          "Pas de taille forte"
+        ],
+        "automne": [
+          "Fruits grossissent",
+          "Piégeage mouche olive",
+          "Début récolte novembre",
+          "Préparation sol hiver"
+        ],
+        "hiver": [
+          "RÉCOLTE nov-jan",
+          "Aucun arrosage",
+          "Protéger si < -10 °C",
+          "Taille dès février"
+        ]
+      },
+      "a_surveiller": [
+        "Mouche de l'olive (Bactrocera oleae) : LE ravageur N°1. Pond dans l'olive, larve dedans. Piégeage avec pièges jaunes ou phéromones dès juillet. Argile kaolinite préventive.",
+        "Œil-de-paon : taches rondes brunes sur feuilles qui tombent. Bouillie bordelaise à l'automne + printemps.",
+        "Cochenille noire : sur rameaux, favorise fumagine noire. Huile blanche en hiver.",
+        "Fumagine : suie noire sur feuilles. Conséquence des cochenilles, traiter la cause.",
+        "Xylella fastidiosa : bactérie qui dévaste en Italie, surveillance nationale."
+      ],
+      "specificite_ou_conseils": [
+        "✓ Climat : La Farlède = zone IDÉALE pour l'olivier. Production possible.",
+        "✓ Mistral : l'olivier adore, adaptation parfaite.",
+        "✓ Sécheresse : l'arbre emblématique de la résistance.",
+        "✓ Gelées : à La Farlède, aucune protection nécessaire (rarement < -5 °C).",
+        "Observation : 2 oliviers dans le jardin, silhouettes jeunes-moyennes en bonne santé. Boutons floraux déjà présents au printemps = floraison imminente.",
+        "Variété : à identifier à la récolte (Aglandau, Cailletier, Tanche locales)."
+      ],
+      "type": "outdoor",
+      "photos": [
+        "olivier-1.jpg",
+        "olivier-2.jpg"
+      ],
+      "instances": 2
+    },
+    {
+      "id": "cypres_de_provence",
+      "nom": "Cyprès de Provence",
+      "nom_scientifique": "Cupressus sempervirens 'Stricta'",
+      "famille": "Cupressacées",
+      "page_manuel": 2,
+      "caracteristiques": {
+        "Type": "Conifère persistant, port fastigié",
+        "Taille adulte": "10 à 20 m de haut, 1 à 2 m de large",
+        "Longévité": "Plusieurs siècles",
+        "Origine": "Méditerranée orientale",
+        "Rusticité": "Jusqu'à -15 °C",
+        "Vent / mistral": "Excellente ★★★★★",
+        "Sécheresse": "Excellente ★★★★★",
+        "Exposition": "Plein soleil",
+        "Sol": "Drainant impératif, tolère le calcaire"
+      },
+      "arrosage": {
+        "Printemps": "Adulte : aucun / Jeune : 1×/sem.",
+        "Été": "Adulte : aucun / Jeune : 1-2×/sem.",
+        "Automne": "Pluies suffisantes",
+        "Hiver": "Aucun arrosage"
+      },
+      "caracteristiques_decoratives": {
+        "Période": "Mars-avril (discrète)",
+        "Fleurs": "Minuscules, non décoratives",
+        "Fruits": "Galbules verts puis bruns",
+        "Attention": "Pollen allergène au printemps"
+      },
+      "taille_nettoyage": "Quand : mars-avril ou sept.-oct., hors canicule et gel. Fréquence : facultative pour le port colonnaire, sinon 1×/an. Méthode : rafraîchir sommet et côtés à la cisaille à haies pour maintenir la silhouette étroite. Jamais tailler dans le vieux bois (ne repousse pas, laisse un trou définitif). Retirer le bois mort en permanence. Outils : sécateur + cisaille à haies. Impératif : désinfecter à l'alcool entre chaque coupe pour éviter la propagation du chancre.",
+      "calendrier_saisonnier": {
+        "printemps": [
+          "Taille mars-avril",
+          "Surveillance chancre",
+          "Arroser jeunes sujets",
+          "Retirer bois mort"
+        ],
+        "ete": [
+          "Rien pour adulte",
+          "Jeune : 1-2×/sem.",
+          "PAS de taille en canicule",
+          "Surveillance processionnaire"
+        ],
+        "automne": [
+          "Taille sept.-oct.",
+          "Retirer bois mort",
+          "Nettoyer la base",
+          "Arrêt arrosages"
+        ],
+        "hiver": [
+          "Repos total",
+          "Observer silhouette",
+          "Aucun entretien",
+          "Vérifier drainage"
+        ]
+      },
+      "a_surveiller": [
+        "Chancre du cyprès (Seiridium) : LE problème majeur. Rameaux qui rougissent/jaunissent et meurent. Couper 20 cm sous la zone, brûler, désinfecter.",
+        "Bupreste : larve qui creuse le bois, affaiblit l'arbre.",
+        "Chenille processionnaire : urticante, ne jamais toucher. Retirer les nids.",
+        "Pourriture racines : fatale si sol mal drainé ou excès d'eau."
+      ],
+      "specificite_ou_conseils": [
+        "✓ Mistral : le brise-vent méditerranéen emblématique, parfaitement adapté.",
+        "✓ Sécheresse : aucun arrosage nécessaire une fois établi.",
+        "✓ Gelées : aucune protection nécessaire à La Farlède.",
+        "✓ Emplacement actuel : contre le mur, gravier drainant, parfait.",
+        "Attention : ne jamais installer un arroseur automatique à son pied."
+      ],
+      "type": "outdoor",
+      "photos": [
+        "cypres-de-provence.jpg"
+      ],
+      "instances": 1
+    },
+    {
+      "id": "palmier_chanvre",
+      "nom": "Palmier chanvre",
+      "nom_scientifique": "Trachycarpus fortunei",
+      "famille": "Arécacées",
+      "page_manuel": 3,
+      "caracteristiques": {
+        "Type": "Palmier rustique à tronc fibreux",
+        "Taille adulte": "6 à 12 m en pleine terre",
+        "Longévité": "50 à 100 ans",
+        "Origine": "Himalaya, Chine",
+        "Rusticité": "Jusqu'à -15 à -18 °C",
+        "Vent / mistral": "Bon ★★★★ (palmes peuvent se déchirer)",
+        "Sécheresse": "Bonne ★★★★",
+        "Exposition": "Plein soleil à mi-ombre",
+        "Sol": "Tout sol drainé"
+      },
+      "arrosage": {
+        "Printemps": "Jeune : 1×/sem. / Adulte : aucun",
+        "Été": "1-2×/semaine si canicule prolongée",
+        "Automne": "Pluies suffisantes",
+        "Hiver": "Aucun arrosage"
+      },
+      "caracteristiques_decoratives": {
+        "Période": "Mai-juin",
+        "Fleurs": "Inflorescences jaunes ramifiées",
+        "Fruits": "Petites drupes bleu-noir"
+      },
+      "taille_nettoyage": "Quand : toute l'année, mais printemps idéal (mars-avril). Fréquence : 1 à 2×/an selon besoin. Méthode : retirer uniquement les palmes complètement sèches (brunes et ratatinées), au ras du tronc avec une scie d'élagage. Jamais couper les palmes vertes ou jaunissantes : le palmier les utilise encore pour sa croissance. Nettoyage optionnel : retirer les fibres brunes qui pendent du tronc en les tirant doucement. Outils : scie d'élagage + gants épais (pétioles avec petites dents acérées). Interdit : ne JAMAIS couper le tronc ni étêter, le palmier ne repousse pas.",
+      "calendrier_saisonnier": {
+        "printemps": [
+          "Taille palmes sèches mars-avril",
+          "Surveillance charançon rouge +++",
+          "Arrosage jeunes sujets",
+          "Reprise végétation"
+        ],
+        "ete": [
+          "Floraison possible",
+          "Surveillance ravageurs +++",
+          "Arrosage si canicule",
+          "Pas de taille en plein été"
+        ],
+        "automne": [
+          "Taille possible oct.",
+          "Nettoyage fibres",
+          "Arrêt arrosages",
+          "Dernière surveillance charançon"
+        ],
+        "hiver": [
+          "Repos total",
+          "Aucun entretien",
+          "Aucune protection",
+          "Observer silhouette"
+        ]
+      },
+      "a_surveiller": [
+        "Papillon palmivore (Paysandisia archon) : larves dans le tronc, sciure visible. Traitement préventif aux nématodes au printemps et en automne.",
+        "Charançon rouge (Rhynchophorus ferrugineus) : ravageur GRAVE dans le Var. Déclaration obligatoire en cas de symptôme. Traitement préventif recommandé.",
+        "Pourriture du bourgeon : si excès d'eau au cœur du palmier.",
+        "Palmes jaunes précoces : carence (potassium surtout) ou manque d'eau prolongé."
+      ],
+      "specificite_ou_conseils": [
+        "✓ Mistral : bonne résistance, les palmes peuvent se déchirer (pas grave).",
+        "✓ Sécheresse : très résistant une fois établi.",
+        "✓ Gelées : aucun souci, c'est le palmier le plus rustique.",
+        "Charançon rouge : le département du Var est en zone très infestée. Surveillance mensuelle obligatoire, déclaration sur FREDON PACA en cas de symptôme.",
+        "Palmes jaunes visibles : vérifier carence potassium (apport possible) ou besoin d'arrosage."
+      ],
+      "type": "outdoor",
+      "photos": [
+        "palmier-chanvre.jpg"
+      ],
+      "instances": 1
+    },
+    {
+      "id": "cycas_du_japon",
+      "nom": "Cycas du Japon",
+      "nom_scientifique": "Cycas revoluta",
+      "famille": "Cycadacées",
+      "page_manuel": 4,
+      "caracteristiques": {
+        "Type": "Plante préhistorique, ni palmier ni fougère",
+        "Taille adulte": "1 à 3 m (croissance très lente)",
+        "Longévité": "100 à 200 ans",
+        "Origine": "Japon, Chine du Sud",
+        "Rusticité": "Jusqu'à -10 à -12 °C bien installé",
+        "Vent / mistral": "Bon ★★★★",
+        "Sécheresse": "Bonne ★★★★ une fois établie",
+        "Exposition": "Plein soleil à mi-ombre légère",
+        "Sol": "Drainant impératif, tolère calcaire"
+      },
+      "arrosage": {
+        "Printemps": "1×/sem. si poussée de feuilles",
+        "Été": "1×/10 jours si canicule",
+        "Automne": "Pluies suffisantes",
+        "Hiver": "Aucun arrosage"
+      },
+      "caracteristiques_decoratives": {
+        "Période": "Pas de vraies fleurs",
+        "Poussée": "1 couronne de palmes / an en moyenne",
+        "Danger": "+++)"
+      },
+      "taille_nettoyage": "Quand : avant l'émergence de la nouvelle couronne (mars-avril). Fréquence : 1×/an suffit. Méthode : retirer UNIQUEMENT les palmes complètement sèches et brunes au ras du tronc avec une scie. Ne jamais couper les palmes vertes ou même un peu jaunies : elles nourrissent encore la plante. Ne jamais toucher au bourgeon central (apex) : c'est le cœur de la plante, une blessure peut être fatale. Retirer les rejetons (petites pousses au pied) si multiplication non souhaitée. Outils : scie d'élagage + gants épais (pétioles piquants). ATTENTION : graines et toutes les parties très toxiques, vigilance absolue avec enfants et animaux.",
+      "calendrier_saisonnier": {
+        "printemps": [
+          "Retirer palmes sèches",
+          "Émergence nouvelle couronne spectaculaire",
+          "Apport compost optionnel",
+          "Surveillance cochenilles"
+        ],
+        "ete": [
+          "Nouvelles palmes se déploient",
+          "Arrosage espacé si canicule",
+          "Ne pas tailler",
+          "Surveiller couleur feuillage"
+        ],
+        "automne": [
+          "Durcissement des palmes",
+          "Arrêt arrosages",
+          "Surveillance parasites",
+          "Nettoyage base"
+        ],
+        "hiver": [
+          "Repos total",
+          "Aucune protection nécessaire",
+          "Observation silhouette",
+          "Aucun arrosage"
+        ]
+      },
+      "a_surveiller": [
+        "Cochenilles (farineuses et à carapace) : très fréquentes. Dépôt blanc cotonneux ou petites écailles brunes sur feuilles et tronc. Huile blanche en hiver, savon noir au printemps.",
+        "Chlorose : palmes jaunes à nervures vertes = carence fer/magnésium. Apport d'engrais palmier.",
+        "Palmes jaunes uniformes : excès d'eau ou drainage insuffisant, cause principale de mort.",
+        "Pourriture du cœur : fatale, due à de l'eau stagnant au centre. Ne jamais arroser le cœur.",
+        "Croissance très lente : normal, 1 couronne par an maximum."
+      ],
+      "specificite_ou_conseils": [
+        "✓ Climat : La Farlède est dans la zone favorable au cycas.",
+        "✓ Mistral : bonne résistance, palmes rigides.",
+        "✓ Sécheresse : très résistant une fois installé.",
+        "✓ Gelées : aucune protection nécessaire à La Farlède.",
+        "Emplacement actuel : le long de la haie, exposition correcte, bonne aération.",
+        "Observation : sujet mature en très bon état, rosette bien formée et dense.",
+        "Sécurité : signalement important (enfants, animaux) — toutes les parties sont toxiques, les graines orange en particulier en cas de fructification future."
+      ],
+      "type": "outdoor",
+      "photos": [
+        "cycas-du-japon.jpg"
+      ],
+      "instances": 1
+    },
+    {
+      "id": "oranger",
+      "nom": "Oranger",
+      "nom_scientifique": "Citrus sinensis",
+      "famille": "Rutacées",
+      "page_manuel": 5,
+      "caracteristiques": {
+        "Type": "Arbre fruitier persistant",
+        "Taille adulte": "3 à 5 m en pleine terre",
+        "Longévité": "50 à 80 ans",
+        "Origine": "Asie (Chine, Inde)",
+        "Rusticité": "-5 à -7 °C (semi-rustique)",
+        "Vent / mistral": "Moyen ★★★ — à abriter",
+        "Sécheresse": "Faible ★★ — arrosages réguliers",
+        "Exposition": "Plein soleil, emplacement abrité",
+        "Sol": "Riche, drainant, légèrement acide"
+      },
+      "arrosage": {
+        "Printemps": "1-2×/semaine (croissance + floraison)",
+        "Été": "2-3×/semaine, arrosage profond",
+        "Automne": "1×/semaine puis espacer",
+        "Hiver": "Rare, uniquement si sec prolongé"
+      },
+      "caracteristiques_decoratives": {
+        "Période": "Avril-mai (très parfumée)",
+        "Fleurs": "Blanches, 5 pétales, étoilées",
+        "Récolte": "Décembre à mars",
+        "Cycle fruit": "8 à 10 mois de la fleur au fruit mûr"
+      },
+      "taille_nettoyage": "Quand : fin d'hiver (février-mars), hors gel, avant la floraison. Fréquence : 1×/an, taille d'entretien. Méthode : retirer les branches mortes, les gourmands (pousses verticales vigoureuses sur le tronc), les branches qui se croisent vers le centre. Éclaircir le centre pour aérer et laisser passer la lumière. Ne jamais rabattre sévèrement : les fleurs naissent sur le bois de l'année précédente. Outils : sécateur désinfecté à l'alcool.",
+      "calendrier_saisonnier": {
+        "printemps": [
+          "Taille fév-mars hors gel",
+          "Engrais agrumes (mars)",
+          "FLORAISON avril-mai",
+          "Surveillance pucerons"
+        ],
+        "ete": [
+          "Arrosage 2-3×/sem.",
+          "Engrais agrumes (juin)",
+          "Nouaison des fruits",
+          "Paillage recommandé"
+        ],
+        "automne": [
+          "Engrais agrumes (sept)",
+          "Fruits grossissent",
+          "Arrosage espacé",
+          "Préparer hivernage"
+        ],
+        "hiver": [
+          "Récolte déc-mars",
+          "Voile d'hivernage si < -3 °C",
+          "Arrosage très rare",
+          "Aucune taille"
+        ]
+      },
+      "a_surveiller": [
+        "Cochenilles : fréquentes sur agrumes. Traitement savon noir + huile blanche en hiver.",
+        "Pucerons : sur jeunes pousses et boutons floraux. Eau savonneuse.",
+        "Chlorose ferrique : feuilles qui jaunissent (nervures vertes). Apport de chélate de fer.",
+        "Mineuse des agrumes : galeries sinueuses sur jeunes feuilles. Traitement à l'huile.",
+        "Gel : ennemi principal à La Farlède. Voile d'hivernage si prévision < -3 °C."
+      ],
+      "specificite_ou_conseils": [
+        "✓ Climat : La Farlède est en limite de culture des agrumes, possible avec précautions.",
+        "Mistral : à protéger, idéalement planté abrité (haie, mur).",
+        "Gelées : nuits à -3/-5 °C possibles en janvier-février, voile d'hivernage les nuits de grand froid.",
+        "Emplacement actuel : au milieu du gazon synthétique — vérifier que la fosse de plantation est assez large.",
+        "Gazon synthétique : attention à l'arrosage, l'eau doit vraiment atteindre les racines (arroser longtemps et au pied)."
+      ],
+      "type": "outdoor",
+      "photos": [
+        "oranger.jpg"
+      ],
+      "instances": 1
+    },
+    {
+      "id": "citronnier",
+      "nom": "Citronnier",
+      "nom_scientifique": "Citrus × limon",
+      "famille": "Rutacées",
+      "page_manuel": 6,
+      "caracteristiques": {
+        "Type": "Arbre fruitier persistant",
+        "Taille adulte": "3 à 6 m en pleine terre",
+        "Longévité": "50 à 100 ans",
+        "Origine": "Asie (Inde, Chine)",
+        "Rusticité": "-3 à -5 °C (plus fragile que l'oranger)",
+        "Vent / mistral": "Moyen ★★★ — à abriter",
+        "Sécheresse": "Faible ★★ — arrosages réguliers",
+        "Exposition": "Plein soleil, emplacement abrité",
+        "Sol": "Riche, drainant, légèrement acide"
+      },
+      "arrosage": {
+        "Printemps": "2×/semaine (croissance + floraison)",
+        "Été": "3×/semaine, arrosage profond",
+        "Automne": "1×/semaine puis espacer",
+        "Hiver": "Rare, uniquement si sec prolongé"
+      },
+      "caracteristiques_decoratives": {
+        "Période": "Printemps + remontée automne",
+        "Fleurs": "Blanches, boutons violacés, parfumées",
+        "Récolte": "Novembre à mars (variable)"
+      },
+      "taille_nettoyage": "Quand : fin d'hiver (février-mars), hors gel. Fréquence : 1×/an minimum, plus exigeant que l'oranger. Méthode : retirer bois mort, gourmands (pousses verticales vigoureuses), branches qui se croisent. Éclaircir le centre pour laisser passer lumière et air : le citronnier produit beaucoup de bois inutile. Supprimer aussi les épines vigoureuses si gênantes. Ne pas rabattre sévèrement : fleurs sur bois de l'année précédente. Outils : sécateur désinfecté, gants recommandés (épines). Astuce : plus sensible au froid que l'oranger, surveiller gels de mars qui abîment les fleurs.",
+      "calendrier_saisonnier": {
+        "printemps": [
+          "TAILLE fév-mars hors gel",
+          "Engrais agrumes mars",
+          "FLORAISON avril-mai",
+          "Surveillance cochenilles"
+        ],
+        "ete": [
+          "Arrosage 3×/sem.",
+          "Engrais juin",
+          "Nouaison fruits",
+          "Paillage recommandé"
+        ],
+        "automne": [
+          "Engrais sept.",
+          "Fruits grossissent",
+          "Arrosage espacé",
+          "Préparer hivernage"
+        ],
+        "hiver": [
+          "Récolte nov-mars",
+          "VOILE HIVERNAGE obligatoire si < -3 °C",
+          "Arrosage très rare",
+          "Aucune taille"
+        ]
+      },
+      "a_surveiller": [
+        "Cochenilles : FRÉQUENTES sur agrumes. Savon noir + huile blanche en hiver.",
+        "Chlorose ferrique : feuilles jaunes à nervures vertes = carence fer (très fréquent). Apport de chélate de fer.",
+        "Mineuse des agrumes : galeries sinueuses sur jeunes feuilles.",
+        "Pucerons : sur jeunes pousses et boutons.",
+        "Gel : ennemi principal à La Farlède. Voile obligatoire si prévision < -3 °C.",
+        "État observé : 2 pieds très différents — un en pleine santé avec citrons, un autre SOUFFRANT (feuilles jaunes, port clairsemé, branches dégarnies). Pour le pied dégradé : tailler le bois mort, traitement chélate de fer, vérifier arrosage."
+      ],
+      "specificite_ou_conseils": [
+        "✓ Climat : La Farlède en limite de culture, possible avec précautions.",
+        "✗ Mistral : à protéger, planter abrité (haie, mur, palmier).",
+        "Gelées : VOILE HIVERNAGE obligatoire les nuits à < -3 °C. Plus sensible que l'oranger.",
+        "Arrosage : le plus gourmand en eau de votre jardin, avec le rosier.",
+        "2 pieds observés : - 1 pied en très bon état (feuillage dense, citrons mûrs) - 1 pied dégradé (jaunissement généralisé, port clairsemé, boutons en difficulté) : chélate de fer au printemps + arrosage suivi + taille des bois morts."
+      ],
+      "type": "outdoor",
+      "photos": [
+        "citronnier-1.jpg",
+        "citronnier-2.jpg"
+      ],
+      "instances": 2
+    },
+    {
+      "id": "mimosa_dhiver",
+      "nom": "Mimosa d'hiver",
+      "nom_scientifique": "Acacia dealbata",
+      "famille": "Fabacées (légumineuses)",
+      "page_manuel": 7,
+      "caracteristiques": {
+        "Type": "Arbre persistant à floraison hivernale",
+        "Taille adulte": "6 à 12 m (croissance rapide)",
+        "Longévité": "30 à 60 ans",
+        "Origine": "Australie (Tasmanie)",
+        "Rusticité": "-5 à -10 °C selon porte-greffe",
+        "Vent / mistral": "Moyen ★★★ (branches fragiles)",
+        "Sécheresse": "Excellente ★★★★★ adulte",
+        "Exposition": "Plein soleil INDISPENSABLE",
+        "Sol": "Drainant, plutôt ACIDE (chlorose si calcaire)"
+      },
+      "arrosage": {
+        "Printemps": "Jeune : 1×/sem. / Adulte : aucun",
+        "Été": "1×/2 semaines si canicule (jeune)",
+        "Automne": "Pluies suffisantes",
+        "Hiver": "Aucun arrosage"
+      },
+      "caracteristiques_decoratives": {
+        "Période": "JANVIER à MARS (spectaculaire)",
+        "Fleurs": "Pompons jaune vif en grappes",
+        "Parfum": "Très puissant, envoûtant",
+        "Emblème": "Symbole de la Côte d'Azur"
+      },
+      "taille_nettoyage": "Quand : IMPÉRATIVEMENT juste après floraison (mars-avril). Fréquence : 1×/an indispensable. Méthode : rabattre les rameaux défleuris d'1/3 à 2/3 pour garder un port compact et stimuler la floraison suivante (fleurs sur bois de l'année). Retirer le bois mort, les branches qui se croisent, les rejets à la base. Ne jamais tailler en automne ou hiver : vous supprimez les boutons floraux. Les drageons qui partent du pied doivent être arrachés (plante très traçante). Outils : sécateur, ébrancheur, scie pour branches épaisses. Astuce : récolter des branches en pleine floraison pour bouquets (plonger pieds dans eau chaude).",
+      "calendrier_saisonnier": {
+        "printemps": [
+          "TAILLE après floraison +++",
+          "Retirer drageons",
+          "Redémarrage végétatif",
+          "Surveillance cochenilles"
+        ],
+        "ete": [
+          "Repos relatif",
+          "Arroser jeunes sujets",
+          "Formation boutons floraux",
+          "Pas de taille"
+        ],
+        "automne": [
+          "Boutons floraux visibles",
+          "AUCUNE TAILLE",
+          "Arrêt arrosages",
+          "Préparer protection"
+        ],
+        "hiver": [
+          "FLORAISON spectaculaire",
+          "Récolte bouquets possible",
+          "Protection si < -5 °C jeune",
+          "Profiter du parfum"
+        ]
+      },
+      "a_surveiller": [
+        "Chlorose ferrique : TRÈS fréquente sur sol calcaire. Feuilles jaunes à nervures vertes. Chélate de fer + mulch acide (écorce de pin). Si sol très calcaire, greffer sur Acacia retinodes.",
+        "Drageonnement : l'arbre émet des rejets parfois loin du pied, arrachage régulier.",
+        "Casse de branches : bois fragile, peut céder au mistral violent ou sous la neige lourde.",
+        "Cochenilles : parfois sur bois. Huile blanche en hiver.",
+        "Gel : jeunes sujets fragiles jusqu'à 3-4 ans. Protection voile recommandée les premiers hivers.",
+        "Considéré INVASIF : en expansion naturelle en Provence, ne pas planter près d'espaces naturels protégés."
+      ],
+      "specificite_ou_conseils": [
+        "✓ Climat : La Farlède est dans la zone emblématique du mimosa (Tanneron, Bormes).",
+        "Mistral : à abriter si possible (branches cassantes), port naturel défavorable au vent fort.",
+        "✓ Sécheresse : très résistant adulte, aucun arrosage nécessaire.",
+        "Gelées : OK pour adulte à La Farlède. Protection des 3 premières années.",
+        "Sol calcaire : le Var a souvent un sol calcaire. Si chlorose observée, privilégier variété greffée sur Acacia retinodes (mimosa 4 saisons) qui tolère le calcaire.",
+        "Floraison hivernale : l'un des rares arbres à fleurir en janvier-février, effet spectaculaire en plein hiver quand le reste du jardin dort."
+      ],
+      "type": "outdoor",
+      "photos": [
+        "mimosas.jpg"
+      ],
+      "instances": 1
+    },
+    {
+      "id": "laurier_rose",
+      "nom": "Laurier-rose",
+      "nom_scientifique": "Nerium oleander",
+      "famille": "Apocynacées",
+      "page_manuel": 8,
+      "caracteristiques": {
+        "Type": "Arbuste persistant méditerranéen",
+        "Taille adulte": "2à5m",
+        "Longévité": "30 à 50 ans",
+        "Origine": "Bassin méditerranéen",
+        "Rusticité": "-10 à -12 °C",
+        "Vent / mistral": "Excellente ★★★★★",
+        "Sécheresse": "Excellente ★★★★★",
+        "Exposition": "Plein soleil",
+        "Sol": "Tout sol drainé, tolère calcaire"
+      },
+      "arrosage": {
+        "Printemps": "Jeune : 1×/sem. / Adulte : aucun",
+        "Été": "1×/semaine si canicule et floraison abondante",
+        "Automne": "Pluies suffisantes",
+        "Hiver": "Aucun arrosage"
+      },
+      "caracteristiques_decoratives": {
+        "Période": "Juin à octobre (très longue)",
+        "Fleurs": "Roses, blanches, rouges, saumon",
+        "Parfum": "Léger selon variété",
+        "Danger": "TOUTES les parties sont TOXIQUES"
+      },
+      "taille_nettoyage": "ATTENTION : toutes les parties du laurier-rose sont toxiques (ingestion, sève). Se laver les mains après manipulation, ne pas brûler les déchets (fumées toxiques). Quand : fin d'hiver (mars) OU après floraison (octobre). Fréquence : 1×/an recommandée pour garder un port compact. Méthode : supprimer les gourmands qui partent du pied, retirer le bois mort, rééquilibrer la silhouette. Pour rajeunir un pied négligé : rabattage sévère au tiers possible en mars, repart vigoureusement. Supprimer les fleurs fanées prolonge la floraison. Outils : sécateur + gants (sève irritante).",
+      "calendrier_saisonnier": {
+        "printemps": [
+          "Taille de formation mars",
+          "Suppression rejets",
+          "Engrais spécial floraison",
+          "Démarrage floraison juin"
+        ],
+        "ete": [
+          "PLEINE FLORAISON",
+          "Suppression fleurs fanées",
+          "Arrosage copieux si sec",
+          "Prolongation floraison"
+        ],
+        "automne": [
+          "Fin floraison oct",
+          "Taille post-florale option",
+          "Arrêt arrosages",
+          "Observation cochenilles"
+        ],
+        "hiver": [
+          "Repos végétatif",
+          "Aucun arrosage",
+          "Aucune protection à La Farlède",
+          "Préparer taille mars"
+        ]
+      },
+      "a_surveiller": [
+        "Cochenilles (surtout farineuses) : fréquentes, dépôt blanc cotonneux. Savon noir + huile blanche en hiver.",
+        "Tumeur bactérienne (Pseudomonas) : galles noires sur rameaux. Couper et brûler. Désinfecter les outils rigoureusement entre chaque coupe.",
+        "Chenilles : défoliations possibles en été. Bacillus thuringiensis si invasion.",
+        "Fumagine : suite aux cochenilles. Traiter la cause."
+      ],
+      "specificite_ou_conseils": [
+        "✓ Climat : La Farlède est parfaite pour le laurier-rose, il y est roi.",
+        "✓ Mistral : excellente résistance, usage en haie brise-vent courant.",
+        "✓ Sécheresse : parfaitement adapté, adulte sans arrosage.",
+        "✓ Gelées : aucune protection nécessaire.",
+        "Observation : 3 pieds dans le jardin, tous en bonne santé, boutons floraux visibles.",
+        "Sécurité : plante toxique, vigilance avec enfants (pas grignoter feuilles/fleurs)."
+      ],
+      "type": "outdoor",
+      "photos": [
+        "laurier-rose-1.jpg",
+        "laurier-rose-2.jpg",
+        "laurier-rose-3.jpg"
+      ],
+      "instances": 3
+    },
+    {
+      "id": "photinia_red_robin",
+      "nom": "Photinia Red Robin",
+      "nom_scientifique": "Photinia × fraseri 'Red Robin'",
+      "famille": "Rosacées",
+      "page_manuel": 9,
+      "caracteristiques": {
+        "Type": "Arbuste à feuillage persistant",
+        "Taille adulte": "2 à 4 m (6 m non taillé)",
+        "Longévité": "20 à 30 ans",
+        "Origine": "Hybride horticole",
+        "Rusticité": "Jusqu'à -15 °C",
+        "Vent / mistral": "Bon ★★★★",
+        "Sécheresse": "Bonne ★★★★ une fois établie",
+        "Exposition": "Soleil à mi-ombre",
+        "Sol": "Tout sol drainé"
+      },
+      "arrosage": {
+        "Printemps": "Jeune : 1×/sem. / Adulte : aucun",
+        "Été": "1-2×/semaine si canicule",
+        "Automne": "Pluies suffisantes",
+        "Hiver": "Aucun arrosage"
+      },
+      "caracteristiques_decoratives": {
+        "Période": "Avril-mai",
+        "Fleurs": "Corymbes blancs, odeur particulière",
+        "Fruits": "Petites baies rouges"
+      },
+      "taille_nettoyage": "Quand : après floraison (mai-juin) OU fin d'hiver (février-mars). Fréquence : 1 à 3×/an selon effet recherché. Méthode : pour stimuler les pousses rouges, tailler à 30 cm du dernier rameau rouge. 2-3 tailles par an intensifient la couleur. Retirer le bois mort et rééquilibrer la silhouette. Pour une haie, cisailler de façon uniforme au cordeau. Outils : cisaille à haies pour haie, sécateur pour détails. Astuce : taille légère après chaque floraison = feuillage rouge permanent.",
+      "calendrier_saisonnier": {
+        "printemps": [
+          "Taille fév-mars possible",
+          "FLORAISON avril-mai",
+          "Pousses rouges éclatantes",
+          "Surveillance entomosporiose"
+        ],
+        "ete": [
+          "Taille post-florale",
+          "Arrosage si canicule",
+          "Surveillance maladies",
+          "Pousses rouges d'été"
+        ],
+        "automne": [
+          "Taille septembre possible",
+          "Ramassage feuilles tombées",
+          "Arrêt arrosages",
+          "Observation maladies"
+        ],
+        "hiver": [
+          "Repos",
+          "Aucun entretien",
+          "Feuillage vert persistant",
+          "Préparer taille fév."
+        ]
+      },
+      "a_surveiller": [
+        "Entomosporiose : taches violettes puis brunes sur feuilles, chute prématurée. Ramasser TOUTES les feuilles tombées, traiter à la bouillie bordelaise.",
+        "Feu bactérien : rare mais GRAVE. Rameaux qui noircissent comme brûlés. Couper, brûler, déclarer en mairie.",
+        "Cochenilles : sur bois âgé. Savon noir + huile blanche.",
+        "Chlorose : sols trop calcaires. Apport de chélate de fer."
+      ],
+      "specificite_ou_conseils": [
+        "✓ Mistral : bonne résistance, utilisation en haie courante.",
+        "✓ Sécheresse : correcte une fois établie (2 ans).",
+        "✓ Gelées : aucun souci.",
+        "✓ Emplacement actuel : haie le long de la clôture, usage classique et bien adapté.",
+        "État observé : belle vigueur, en pleine floraison, bonne densité."
+      ],
+      "type": "outdoor",
+      "photos": [
+        "photinia.jpg"
+      ],
+      "instances": 1
+    },
+    {
+      "id": "bougainvillier",
+      "nom": "Bougainvillier",
+      "nom_scientifique": "Bougainvillea glabra / spectabilis",
+      "famille": "Nyctaginacées",
+      "page_manuel": 10,
+      "caracteristiques": {
+        "Type": "Arbuste grimpant épineux",
+        "Taille adulte": "3 à 10 m de long",
+        "Longévité": "30 à 50 ans",
+        "Origine": "Amérique du Sud (Brésil)",
+        "Rusticité": "-5 à -8 °C (fragile jeune)",
+        "Vent / mistral": "Moyen ★★★ (palissage solide)",
+        "Sécheresse": "Excellente ★★★★★ adulte",
+        "Exposition": "Plein soleil INDISPENSABLE",
+        "Sol": "Drainant, pauvre OK (floraison stimulée)"
+      },
+      "arrosage": {
+        "Printemps": "1×/semaine pour stimuler floraison",
+        "Été": "1×/semaine, espacer si trop vert",
+        "Automne": "Réduire progressivement",
+        "Hiver": "Aucun arrosage (repos obligatoire)"
+      },
+      "caracteristiques_decoratives": {
+        "Période": "Juin à octobre (parfois 2 vagues)",
+        "Fleurs": "Bractées roses/magenta/blanches",
+        "Astuce": "Floraison accrue par sécheresse relative",
+        "Attention": "Épines très piquantes sur rameaux"
+      },
+      "taille_nettoyage": "Quand : fin d'hiver (mars) + taille légère après chaque vague de floraison. Fréquence : 1 à 2×/an. Méthode : retirer le bois mort et les rameaux desséchés (vous en avez beaucoup). Rabattre les branches principales d'1/3 pour restructurer. Rajeunissement possible : rabattage sévère à 50 cm du sol en mars, repart toujours. Palisser les nouvelles pousses sur treillis/fils. GANTS ÉPAIS OBLIGATOIRES : épines longues et très piquantes, infections possibles en cas de piqûre profonde. Outils : sécateur + ébrancheur + gants de rosier.",
+      "calendrier_saisonnier": {
+        "printemps": [
+          "TAILLE mars (rajeunissement possible)",
+          "Reprise arrosages",
+          "Engrais spécial fleurs",
+          "Palissage pousses"
+        ],
+        "ete": [
+          "PLEINE FLORAISON juin-sept",
+          "Arrosage modéré",
+          "Taille légère post-florale",
+          "Spectacle maximal"
+        ],
+        "automne": [
+          "Fin floraison octobre",
+          "Arrêt arrosages",
+          "Ramassage bractées",
+          "Préparer hiver"
+        ],
+        "hiver": [
+          "Semi-défoliation normale",
+          "AUCUN arrosage",
+          "Rien à faire",
+          "Préparer taille mars"
+        ]
+      },
+      "a_surveiller": [
+        "Excès d'azote : feuillage exubérant mais pas de fleurs. Réduire arrosages + engrais pauvre en azote, riche en phosphore/potassium.",
+        "Chlorose : feuilles jaunes à nervures vertes. Chélate de fer.",
+        "Cochenilles : sur bois. Huile blanche en hiver.",
+        "Pucerons : sur jeunes pousses. Eau savonneuse.",
+        "État observé : PIED TRÈS DÉGARNI, moitié sèche visible. Taille de rajeunissement sévère URGENTE en mars (rabattage au tiers ou plus, il repartira)."
+      ],
+      "specificite_ou_conseils": [
+        "✓ Climat : La Farlède convient bien, surtout planté contre un mur au sud.",
+        "Mistral : à palisser solidement, grappes lourdes en floraison.",
+        "Sécheresse : l'adore une fois installé (floraison maximale).",
+        "✗ Gelées : peut perdre toutes ses feuilles à 0 °C (normal), mort possible si jeune et < -5 °C. Protection recommandée les 2-3 premières années.",
+        "Emplacement actuel : contre le mur blanc, bonne exposition.",
+        "Action prioritaire : TAILLE SÉVÈRE de rajeunissement en mars pour relancer la floraison."
+      ],
+      "type": "outdoor",
+      "photos": [
+        "bougainvillier.jpg"
+      ],
+      "instances": 1
+    },
+    {
+      "id": "jasmin_etoile",
+      "nom": "Jasmin étoilé",
+      "nom_scientifique": "Trachelospermum jasminoides",
+      "famille": "Apocynacées",
+      "page_manuel": 11,
+      "caracteristiques": {
+        "Type": "Liane persistante ligneuse",
+        "Taille adulte": "3 à 8 m de long",
+        "Longévité": "30 à 50 ans",
+        "Origine": "Chine, Japon, Corée",
+        "Rusticité": "Jusqu'à -12 à -15 °C",
+        "Vent / mistral": "Moyen ★★★ — support solide requis",
+        "Sécheresse": "Bonne ★★★★ une fois établie",
+        "Exposition": "Soleil à mi-ombre (préfère matin)",
+        "Sol": "Drainé, neutre à légèrement acide"
+      },
+      "arrosage": {
+        "Printemps": "1×/sem. les 2 premières années",
+        "Été": "1-2×/sem. si canicule prolongée",
+        "Automne": "Pluies suffisantes",
+        "Hiver": "Aucun arrosage"
+      },
+      "caracteristiques_decoratives": {
+        "Période": "Mai à août (pic en juin)",
+        "Fleurs": "Blanc pur, étoilées à 5 pétales",
+        "Parfum": "TRÈS puissant, envoûtant"
+      },
+      "taille_nettoyage": "Quand : après floraison (juillet-août), légère. Grosse taille en fin d'hiver (mars). Fréquence : 1 à 2×/an selon vigueur. Méthode : rabattre les rameaux trop longs, retirer le bois mort et les rameaux qui sortent du support. Pour rajeunir un pied vieillissant : rabattage sévère possible en mars (1/3 de la hauteur), repart toujours. Palisser les jeunes pousses sur le support pour garder une forme compacte. Outils : sécateur désinfecté. Astuce : feuillage devient bronze-rouge en hiver, c'est normal et joli.",
+      "calendrier_saisonnier": {
+        "printemps": [
+          "Taille rajeunissement mars",
+          "Engrais organique avril",
+          "Palisser jeunes pousses",
+          "Début floraison mai"
+        ],
+        "ete": [
+          "PLEINE FLORAISON parfumée",
+          "Taille légère post-florale",
+          "Arrosage si canicule",
+          "Continuer palissage"
+        ],
+        "automne": [
+          "Fin de floraison",
+          "Palisser pousses restantes",
+          "Arrêt arrosages",
+          "Feuillage bronze"
+        ],
+        "hiver": [
+          "Feuillage persistant rouge",
+          "Aucun entretien",
+          "Préparer taille de mars",
+          "Aucun arrosage"
+        ]
+      },
+      "a_surveiller": [
+        "Chlorose ferrique : feuilles jaunes à nervures vertes (sol trop calcaire). Chélate de fer + mulch acide (écorces de pin).",
+        "Cochenilles farineuses : sur bois et revers feuilles. Savon noir + huile blanche.",
+        "Pucerons : sur jeunes pousses au printemps. Eau savonneuse.",
+        "Support qui cède : le jasmin devient lourd, un treillis solide est indispensable.",
+        "État observé : feuillage vert clair/jaune = probable chlorose, apport de chélate de fer recommandé."
+      ],
+      "specificite_ou_conseils": [
+        "✓ Mistral : support solide indispensable (treillis, fil de fer).",
+        "✓ Sécheresse : résistante une fois établie.",
+        "✓ Gelées : aucune protection nécessaire à La Farlède.",
+        "Emplacement actuel : contre mur, exposition correcte.",
+        "Observation : feuillage un peu chlorotique (vert-jaune) = carence en fer probable, apport de chélate de fer au printemps prochain.",
+        "Parfum : placez-vous à proximité en juin, l'effet est saisissant en soirée."
+      ],
+      "type": "outdoor",
+      "photos": [
+        "jasmin-possiblement.jpg"
+      ],
+      "instances": 1
+    },
+    {
+      "id": "yucca_superbe",
+      "nom": "Yucca superbe",
+      "nom_scientifique": "Yucca gloriosa",
+      "famille": "Asparagacées",
+      "page_manuel": 12,
+      "caracteristiques": {
+        "Type": "Arbuste persistant à tronc ligneux",
+        "Taille adulte": "2 à 5 m, touffes larges",
+        "Longévité": "Plusieurs décennies",
+        "Origine": "Sud-est des États-Unis",
+        "Rusticité": "Jusqu'à -15 °C",
+        "Vent / mistral": "Excellente ★★★★★",
+        "Sécheresse": "Excellente ★★★★★",
+        "Exposition": "Plein soleil indispensable",
+        "Sol": "Drainant, sableux"
+      },
+      "arrosage": {
+        "Printemps": "1× / 15 jours si sec",
+        "Été": "1× / 2-3 semaines",
+        "Automne": "Pluies suffisantes",
+        "Hiver": "Aucun arrosage"
+      },
+      "caracteristiques_decoratives": {
+        "Période": "Juin à septembre",
+        "Fleurs": "Clochettes blanc crème",
+        "Hampe": "1 à 2 m, spectaculaire",
+        "Fruits": "Non comestibles ici"
+      },
+      "taille_nettoyage": "Quand : fin d'hiver (fév-mars), hors gel. Fréquence : 1×/an. Méthode : retirer les feuilles sèches du bas à la main ou au sécateur (gants épais, pointes très piquantes). Couper les hampes fanées à la base. Si rosette disgracieuse : scier le tronc à la hauteur voulue, il repartira en plusieurs têtes. Outils : sécateur désinfecté + scie d'élagage. Sécurité : lunettes de protection recommandées.",
+      "calendrier_saisonnier": {
+        "printemps": [
+          "Taille fév-mars",
+          "Retirer feuilles sèches",
+          "1er arrosage léger si sec",
+          "Compost optionnel"
+        ],
+        "ete": [
+          "Surveiller hampe florale",
+          "Arrosage espacé, profond",
+          "Pas de fertilisation",
+          "Profiter de la floraison"
+        ],
+        "automne": [
+          "Couper hampes fanées",
+          "Nettoyer la base",
+          "Arrêter tout arrosage",
+          "Paillage minéral optionnel"
+        ],
+        "hiver": [
+          "Aucun entretien",
+          "Vérifier drainage",
+          "Protéger si < -10 °C",
+          "Observer avant taille"
+        ]
+      },
+      "a_surveiller": [
+        "Charançon du yucca : rare mais destructeur, surveiller les trous dans le tronc.",
+        "Pourriture du pied : uniquement si sol trop humide ou arrosage excessif.",
+        "Taches noires : champignons favorisés par l'humidité stagnante.",
+        "Cochenilles : occasionnelles, savon noir si invasion."
+      ],
+      "specificite_ou_conseils": [
+        "✓ Mistral : le yucca adore, feuilles rigides parfaitement adaptées.",
+        "✓ Sécheresse : supporte 2-3 mois sans pluie sans souci.",
+        "✓ Gelées : OK jusqu'à -10 °C, zéro protection à prévoir à La Farlède.",
+        "✓ Emplacement actuel : le long du cabanon, parfait (drainant, plein soleil)."
+      ],
+      "type": "outdoor",
+      "photos": [
+        "yuccas.jpg"
+      ],
+      "instances": 1
+    },
+    {
+      "id": "euphorbe_candelabre",
+      "nom": "Euphorbe candélabre",
+      "nom_scientifique": "Euphorbia ingens / candelabrum",
+      "famille": "Euphorbiacées",
+      "page_manuel": 13,
+      "caracteristiques": {
+        "Type": "Plante succulente arborescente",
+        "Taille adulte": "2 à 12 m (nain ici ~1,5 m)",
+        "Longévité": "Plusieurs décennies",
+        "Origine": "Afrique tropicale",
+        "Rusticité": "-3 à -5 °C MAX (fragile au gel)",
+        "Vent / mistral": "Moyen ★★★ — à abriter",
+        "Sécheresse": "Excellente ★★★★★",
+        "Exposition": "Plein soleil à mi-ombre",
+        "Sol": "Très drainant impératif (cactus)"
+      },
+      "arrosage": {
+        "Printemps": "1×/mois si vraiment sec",
+        "Été": "1×/3 semaines, très parcimonieux",
+        "Automne": "Pratiquement aucun",
+        "Hiver": "AUCUN arrosage (obligatoire)"
+      },
+      "caracteristiques_decoratives": {
+        "Période": "Rare sous nos climats",
+        "Fleurs": "Minuscules, jaunâtres si fleurit",
+        "Danger": "Sève blanche TOXIQUE et caustique"
+      },
+      "taille_nettoyage": "ATTENTION DANGER : la sève blanche (latex) est très TOXIQUE, caustique pour la peau et extrêmement dangereuse pour les yeux. Risque cécité temporaire. Quand : printemps-été uniquement, temps sec. Fréquence : rarement nécessaire, seulement pour limiter ou nettoyer. Méthode : travailler avec gants épais en caoutchouc, lunettes et manches longues. Couper net au sécateur. Laisser sécher la plaie à l'air libre (ne jamais mastiquer). Les tiges coupées peuvent servir de bouture après 1 semaine de cicatrisation. Outils : sécateur à désinfecter ET à bien nettoyer après usage. En cas de contact : rincer abondamment à l'eau, consulter si yeux atteints.",
+      "calendrier_saisonnier": {
+        "printemps": [
+          "Reprise de croissance",
+          "Début arrosages parcimonieux",
+          "Taille possible si besoin",
+          "Surveiller cochenilles"
+        ],
+        "ete": [
+          "Croissance active",
+          "Arrosage 1×/3 semaines",
+          "Protection soleil intense jeune",
+          "Éviter stress hydrique"
+        ],
+        "automne": [
+          "Arrêt progressif arrosages",
+          "Préparation hivernage",
+          "Dernière observation",
+          "Nettoyage base"
+        ],
+        "hiver": [
+          "AUCUN arrosage",
+          "Protéger si < 0 °C",
+          "Abri hivernal si possible",
+          "Sol TOTALEMENT sec"
+        ]
+      },
+      "a_surveiller": [
+        "Pourriture du pied : CAUSE N°1 de mort. Excès d'eau en hiver ou sol mal drainé. Couper partie saine, laisser sécher, replanter.",
+        "Cochenilles : sur les côtes. Retirer à la brosse, alcool dilué (jamais sur peau).",
+        "Gel : tissus gorgés d'eau éclatent à < -3 °C. Protection hivernale indispensable.",
+        "Brûlure solaire : déplacement brutal du soleil → taches brunes. Acclimater progressivement."
+      ],
+      "specificite_ou_conseils": [
+        "✓ Mistral : bonne résistance si emplacement abrité.",
+        "✓ Sécheresse : aucun souci, plante succulente parfaite pour le climat.",
+        "✗ Gelées : POINT FAIBLE à La Farlède. Voile d'hivernage OBLIGATOIRE si prévision < -2 °C.",
+        "Emplacement actuel : contre le mur au sud, abri correct.",
+        "Observation : base un peu encombrée par herbes adventices, désherbage conseillé.",
+        "Sécurité : signalement important si enfants ou animaux domestiques (plante très toxique)."
+      ],
+      "type": "outdoor",
+      "photos": [
+        "euphorbe-candelabre.jpg"
+      ],
+      "instances": 1
+    },
+    {
+      "id": "cactus_myrtille_cactus_bleu",
+      "nom": "Cactus myrtille (cactus bleu)",
+      "nom_scientifique": "Myrtillocactus geometrizans",
+      "famille": "Cactacées",
+      "page_manuel": 14,
+      "caracteristiques": {
+        "Type": "Cactus colonnaire ramifié",
+        "Taille adulte": "2à4m",
+        "Longévité": "30 à 50 ans",
+        "Origine": "Mexique central",
+        "Rusticité": "-4 °C MAX, sec impératif",
+        "Vent / mistral": "Bon ★★★★",
+        "Sécheresse": "Excellente ★★★★★",
+        "Exposition": "Plein soleil",
+        "Sol": "Très drainant, substrat cactus"
+      },
+      "arrosage": {
+        "Printemps": "1×/mois si vraiment sec",
+        "Été": "1×/3 semaines, jamais feuillage",
+        "Automne": "Pratiquement aucun",
+        "Hiver": "AUCUN arrosage IMPÉRATIF"
+      },
+      "caracteristiques_decoratives": {
+        "Période": "Printemps (rare en climat frais)",
+        "Fleurs": "Blanc-crème, éphémères",
+        "Fruits": "Petits fruits bleus (d'où le nom \"myrtille\")"
+      },
+      "taille_nettoyage": "Quand : printemps ou début d'été, temps sec. Méthode : couper net avec une scie ou grande cisaille, porter gants épais (épines petites mais nombreuses). Les tiges coupées peuvent être bouturées après 1-2 semaines de cicatrisation à l'ombre. Appliquer de la cannelle en poudre sur les grosses plaies (antifongique naturel). Outils : scie ou gros sécateur, désinfecté. URGENCE SUR VOTRE PIED : état très dégradé (nécroses importantes, zones creuses, cicatrisation en cours). Intervenir au printemps : couper les tiges les plus atteintes bien EN BAS des zones noircies, assainir le pied, revoir drainage.",
+      "calendrier_saisonnier": {
+        "printemps": [
+          "TAILLE d'assainissement URGENT",
+          "Bouturage des têtes saines",
+          "Début arrosages très espacés",
+          "Observation cicatrisation"
+        ],
+        "ete": [
+          "Croissance active",
+          "Arrosage 1×/3 semaines",
+          "Surveillance pourriture",
+          "Protection soleil extrême jeune"
+        ],
+        "automne": [
+          "Arrêt progressif arrosages",
+          "Dernière observation",
+          "Préparer hivernage",
+          "Nettoyage base"
+        ],
+        "hiver": [
+          "AUCUN arrosage",
+          "Protection si < -2 °C",
+          "Sol totalement sec",
+          "Observer nécroses"
+        ]
+      },
+      "a_surveiller": [
+        "Pourriture : CAUSE N°1 de mort. Taches molles, noires, qui s'étendent. Couper 5 cm sous la zone atteinte, laisser sécher à l'ombre.",
+        "Nécroses liégeuses : cicatrisation de blessures anciennes, zones brunes dures. Pas grave si sèches, dangereux si humides ou molles.",
+        "Gel : tissus gorgés d'eau éclatent à < -2/-3 °C. Protection impérative.",
+        "Cochenilles : sur les côtes. Alcool dilué au coton-tige.",
+        "ÉTAT OBSERVÉ ALARMANT : plusieurs tiges très nécrosées, zones creuses, couleur dégradée. Intervention de sauvetage nécessaire au printemps."
+      ],
+      "specificite_ou_conseils": [
+        "✓ Sécheresse : parfaitement adapté.",
+        "✓ Mistral : bonne résistance si installé.",
+        "✗ Gelées : POINT FAIBLE MAJEUR. À La Farlède, voile d'hivernage + bâche obligatoires si < -2 °C.",
+        "Emplacement actuel : contre la clôture abritée, OK mais vérifier que le sol soit TRÈS drainant (cailloux, gravier, pas de terre argileuse).",
+        "ACTION PRIORITAIRE : sauvetage au printemps — couper les parties nécrosées, bouturer ce qui est sain, revoir le drainage au pied. L'état actuel est préoccupant et peut évoluer vers la perte totale si négligé."
+      ],
+      "type": "outdoor",
+      "photos": [
+        "cactus-bleu.jpg"
+      ],
+      "instances": 1
+    },
+    {
+      "id": "aeonium",
+      "nom": "Aeonium",
+      "nom_scientifique": "Aeonium arboreum / 'Zwartkop'",
+      "famille": "Crassulacées",
+      "page_manuel": 15,
+      "caracteristiques": {
+        "Type": "Succulente à rosettes sur tige",
+        "Taille adulte": "40 cm à 1 m",
+        "Longévité": "5 à 15 ans (rosette meurt après floraison)",
+        "Origine": "Îles Canaries, Maroc",
+        "Rusticité": "-3 à -5 °C MAX (fragile)",
+        "Vent / mistral": "Moyen ★★★",
+        "Sécheresse": "Excellente ★★★★★",
+        "Exposition": "Soleil doux à mi-ombre (sud brûle)",
+        "Sol": "Très drainant, sableux"
+      },
+      "arrosage": {
+        "Printemps": "1×/2 semaines si sec (croissance)",
+        "Été": "REPOS estival : aucun arrosage",
+        "Automne": "Reprise : 1×/semaine si sec",
+        "Hiver": "1×/mois si vraiment sec"
+      },
+      "caracteristiques_decoratives": {
+        "Période": "Hiver-printemps selon variété",
+        "Fleurs": "Panicules jaune vif en pyramide",
+        "Relais": "Rejets latéraux prennent le relais"
+      },
+      "taille_nettoyage": "Quand : printemps (mars-mai) de préférence. Méthode : étêter les rosettes pour les bouturer et multiplier la plante. Laisser sécher la coupe 3-5 jours avant de planter la tête en terre : reprise facile. Couper les hampes florales fanées à la base (rosette morte après floraison). Nettoyer les feuilles sèches du bas des tiges pour aérer. Outils : sécateur désinfecté. Astuce : en été, l'Aeonium entre en DORMANCE, les rosettes se referment et semblent mortes. C'est NORMAL, ne pas arroser, elles reprendront à l'automne.",
+      "calendrier_saisonnier": {
+        "printemps": [
+          "Croissance active",
+          "Multiplication par bouture",
+          "Arrosage modéré",
+          "Floraison possible"
+        ],
+        "ete": [
+          "DORMANCE ESTIVALE",
+          "Rosettes refermées",
+          "AUCUN arrosage",
+          "Ombre légère idéale"
+        ],
+        "automne": [
+          "Réveil de la plante",
+          "Reprise arrosages",
+          "Croissance spectaculaire",
+          "Couleurs intensifiées"
+        ],
+        "hiver": [
+          "Végétation active",
+          "Arrosage rare",
+          "Protection si < -2 °C",
+          "Surveillance pourriture"
+        ]
+      },
+      "a_surveiller": [
+        "Pourriture du collet : CAUSE N°1 de mort, due à excès d'eau en été (dormance).",
+        "Cochenilles farineuses : au cœur des rosettes. Brosse + alcool dilué.",
+        "Gel : rosettes fondent à < -3 °C. Abriter ou rentrer les pieds en pot.",
+        "Rosette qui fleurit puis meurt : NORMAL (plante monocarpique), les rejets latéraux continuent.",
+        "État observé : 2 Aeonium différents (Zwartkop pourpre + arboreum bordeaux), envahis par les adventices, DÉSHERBAGE nécessaire."
+      ],
+      "specificite_ou_conseils": [
+        "✓ Sécheresse : parfaitement adaptée, c'est son climat.",
+        "Mistral : bonne résistance, rosettes compactes.",
+        "✗ Gelées : POINT FAIBLE à La Farlède, protection voile si < -2 °C.",
+        "Emplacement actuel : massif encombré d'adventices, desherbage prioritaire.",
+        "Soleil : en plein sud brûlant, peut marquer les rosettes (bords noircis). Une mi-ombre après 14h est idéale.",
+        "Multiplication : très facile, n'hésitez pas à bouturer pour densifier."
+      ],
+      "type": "outdoor",
+      "photos": [
+        "aeonium.jpg",
+        "aeonium-et-echeveria.jpg"
+      ],
+      "instances": 2
+    },
+    {
+      "id": "echeveria",
+      "nom": "Echeveria",
+      "nom_scientifique": "Echeveria sp.",
+      "famille": "Crassulacées",
+      "page_manuel": 16,
+      "caracteristiques": {
+        "Type": "Succulente à rosette acaule",
+        "Taille adulte": "10 à 20 cm de diamètre",
+        "Longévité": "5 à 10 ans",
+        "Origine": "Mexique, Amérique centrale",
+        "Rusticité": "-4 à -6 °C MAX selon espèce",
+        "Vent / mistral": "Bon ★★★★ (rosette compacte)",
+        "Sécheresse": "Excellente ★★★★★",
+        "Exposition": "Plein soleil doux (matinée idéal)",
+        "Sol": "Très drainant, substrat cactus"
+      },
+      "arrosage": {
+        "Printemps": "1×/semaine si sec",
+        "Été": "1×/10 jours, jamais sur la rosette",
+        "Automne": "1×/2 semaines si sec",
+        "Hiver": "1×/mois maximum"
+      },
+      "caracteristiques_decoratives": {
+        "Période": "Printemps-été",
+        "Fleurs": "Clochettes orangées sur hampe arquée",
+        "Spécificité": "Plante survit à sa propre floraison"
+      },
+      "taille_nettoyage": "Quand : toute l'année, besoin minimal. Méthode : retirer les feuilles mortes du bas de la rosette à la main (elles se détachent facilement). Couper les hampes florales fanées à la base. Bouturage très facile : une feuille entière détachée + posée sur terre donne un nouveau plant. Les rejets latéraux (petites rosettes au pied) peuvent être séparés et replantés. Outils : simple sécateur pour hampes, doigts pour tout le reste. À éviter : arroser la rosette au cœur (pourriture instantanée).",
+      "calendrier_saisonnier": {
+        "printemps": [
+          "Croissance active",
+          "Floraison possible",
+          "Bouturage facile",
+          "Surveillance cochenilles"
+        ],
+        "ete": [
+          "Colorations intenses",
+          "Arrosage espacé",
+          "Protection soleil extrême",
+          "Jamais au cœur"
+        ],
+        "automne": [
+          "Croissance continue",
+          "Arrosage réduit",
+          "Séparation rejets",
+          "Observer drainage"
+        ],
+        "hiver": [
+          "Ralentissement",
+          "Arrosage très rare",
+          "Protection si gel",
+          "Couleurs pourpres"
+        ]
+      },
+      "a_surveiller": [
+        "Pourriture du cœur : eau stagnante au centre de la rosette = mort rapide. Toujours arroser au pied, pas sur la rosette.",
+        "Cochenilles farineuses : entre les feuilles de la rosette. Coton-tige imbibé d'alcool.",
+        "Étiolement : rosette qui s'étire, pétioles allongés = manque de soleil.",
+        "Brûlures : taches brunes après exposition brutale au plein soleil. Acclimater progressivement.",
+        "État observé : petite rosette (~6 cm), installation récente, noyée dans les adventices, désherbage nécessaire."
+      ],
+      "specificite_ou_conseils": [
+        "✓ Mistral : bonne résistance (rosette plaquée au sol).",
+        "✓ Sécheresse : parfaitement adaptée.",
+        "✗ Gelées : rosette fond à -4/-5 °C. Abri hivernal recommandé ou gravillonnage du collet.",
+        "Emplacement actuel : petite rosette dans le massif encombré, désherbage puis paillage minéral conseillé.",
+        "Multiplication : très facile par feuille entière posée sur terre sèche.",
+        "Couleurs : se développent mieux avec un stress modéré (soleil, températures basses)."
+      ],
+      "type": "outdoor",
+      "photos": [
+        "aeonium-et-echeveria.jpg"
+      ],
+      "instances": 1
+    },
+    {
+      "id": "lavande",
+      "nom": "Lavande",
+      "nom_scientifique": "Lavandula angustifolia / × intermedia",
+      "famille": "Lamiacées",
+      "page_manuel": 17,
+      "caracteristiques": {
+        "Type": "Sous-arbrisseau aromatique persistant",
+        "Taille adulte": "30 à 80 cm",
+        "Longévité": "8 à 12 ans (à remplacer)",
+        "Origine": "Bassin méditerranéen",
+        "Rusticité": "-15 à -20 °C",
+        "Vent / mistral": "Excellente ★★★★★",
+        "Sécheresse": "Excellente ★★★★★",
+        "Exposition": "Plein soleil INDISPENSABLE",
+        "Sol": "Caillouteux, sec, calcaire accepté"
+      },
+      "arrosage": {
+        "Printemps": "Aucun (adulte) / Jeune : rare",
+        "Été": "Aucun, sauf jeune en canicule",
+        "Automne": "Pluies suffisantes",
+        "Hiver": "Aucun arrosage"
+      },
+      "caracteristiques_decoratives": {
+        "Période": "Juin à août",
+        "Fleurs": "Épis bleu-violet, très parfumés",
+        "Récolte": "Juste avant plein épanouissement"
+      },
+      "taille_nettoyage": "Quand : DEUX tailles/an : après floraison (août) + fin d'hiver (mars). Méthode estivale : couper tous les hampes florales fanées + 5 cm de feuillage, donner forme de boule compacte. Méthode hivernale (CRUCIALE) : tailler court toute la touffe (10-15 cm), en formant une boule bien ronde. NE JAMAIS tailler dans le vieux bois gris/marron (ne repousse pas). Rester sur le feuillage vert/gris encore vivant. Fréquence : 2× par an IMPÉRATIF, sinon la touffe se dégarnit au centre. Outils : cisaille à haies ou gros sécateur. État observé : votre lavande est dégarnie, envisager un remplacement si le centre est sec.",
+      "calendrier_saisonnier": {
+        "printemps": [
+          "Taille fin février-mars",
+          "Retirer feuilles mortes autour",
+          "Aucun arrosage",
+          "Redémarrage végétation"
+        ],
+        "ete": [
+          "PLEINE FLORAISON juin-juil",
+          "Récolte avant plein épanouissement",
+          "Taille post-florale août",
+          "Aucun arrosage adulte"
+        ],
+        "automne": [
+          "Touffe repos",
+          "NE PAS tailler",
+          "Préparer hiver",
+          "Observer vigueur"
+        ],
+        "hiver": [
+          "Repos végétatif",
+          "Aucune protection",
+          "Préparer taille mars",
+          "Aucun arrosage"
+        ]
+      },
+      "a_surveiller": [
+        "Vieillissement prématuré : sans double taille annuelle, la touffe se dégarnit au centre en 4-5 ans. À remplacer.",
+        "Cicadelle : vecteur de la phytoplasmose (stolbur), jaunissement et dépérissement. Maladie FATALE, pas de traitement, arracher et brûler.",
+        "Pourriture : sol trop riche ou humide, drainage impératif.",
+        "Chenilles : rares sur lavande.",
+        "État observé : touffe dégarnie, tiges ligneuses visibles, centre possiblement mort → à surveiller de près, remplacement probable à moyen terme."
+      ],
+      "specificite_ou_conseils": [
+        "✓ Mistral : plante emblématique, résistance totale.",
+        "✓ Sécheresse : la lavande EXIGE la sécheresse pour prospérer.",
+        "✓ Gelées : aucun souci à La Farlède.",
+        "✗ Emplacement actuel : coin entre mur et clôture, soleil peut-être limité ? La lavande demande minimum 6h de soleil direct par jour.",
+        "État observé : aspect sec et dégarni = taille négligée ou fin de vie. Rabattage sévère à tenter en mars, si échec, remplacement.",
+        "Piège à éviter : ne jamais arroser une lavande adulte, cause la mort."
+      ],
+      "type": "outdoor",
+      "photos": [
+        "lavande.jpg"
+      ],
+      "instances": 1
+    },
+    {
+      "id": "rosier_buisson",
+      "nom": "Rosier buisson",
+      "nom_scientifique": "Rosa sp. (variété à identifier à la floraison)",
+      "famille": "Rosacées",
+      "page_manuel": 18,
+      "caracteristiques": {
+        "Type": "Arbuste caduc à fleurs",
+        "Taille adulte": "0,5 à 2 m (ici buisson ~1 m)",
+        "Longévité": "15 à 25 ans bien entretenu",
+        "Origine": "Horticulture (nombreuses variétés)",
+        "Rusticité": "Jusqu'à -15 à -20 °C",
+        "Vent / mistral": "Bon ★★★★ pour rosiers buissons",
+        "Sécheresse": "Moyenne ★★★ — apprécie l'eau",
+        "Exposition": "Plein soleil (5h/jour mini)",
+        "Sol": "Argilo-limoneux, riche, drainé"
+      },
+      "arrosage": {
+        "Printemps": "1-2×/semaine au pied",
+        "Été": "2-3×/semaine, arrosage profond",
+        "Automne": "1×/semaine puis espacer",
+        "Hiver": "Aucun arrosage"
+      },
+      "caracteristiques_decoratives": {
+        "Période": "Mai à octobre (variétés remontantes)",
+        "Fleurs": "À identifier à la 1ère floraison",
+        "Parfum": "Selon variété"
+      },
+      "taille_nettoyage": "Quand : fin d'hiver (février-mars), hors gel, avant débourrement. Fréquence : 1× grande taille/an + nettoyages estivaux. Méthode (rosier buisson) : retirer bois mort, chétif, branches qui se croisent. Garder 3 à 5 branches principales vigoureuses. Rabattre à 3-5 yeux (20-30 cm du sol). Coupe en biais à 5 mm au-dessus d'un œil orienté vers l'extérieur. Taille d'été : supprimer les fleurs fanées pour favoriser la remontée. Outils : sécateur TRÈS affûté et désinfecté.",
+      "calendrier_saisonnier": {
+        "printemps": [
+          "TAILLE fév-mars obligatoire",
+          "Engrais rosiers + corne",
+          "Surveillance pucerons",
+          "Début floraison mai"
+        ],
+        "ete": [
+          "Arrosage 2-3×/sem. +++",
+          "Supprimer fleurs fanées",
+          "Surveillance maladies",
+          "Engrais de juin (léger)"
+        ],
+        "automne": [
+          "Floraison tardive",
+          "Ramassage feuilles malades",
+          "Paillage organique",
+          "Espacer arrosages"
+        ],
+        "hiver": [
+          "Repos végétatif",
+          "Butter le pied (greffe)",
+          "Aucun arrosage",
+          "Préparer taille fév."
+        ]
+      },
+      "a_surveiller": [
+        "Marsonia (tache noire) : maladie N°1. Taches noires, feuilles jaunes qui tombent. Ramasser TOUTES les feuilles tombées. Bouillie bordelaise en prévention.",
+        "Oïdium : poudre blanche sur feuilles. Soufre ou lait dilué.",
+        "Rouille : taches orange au revers des feuilles.",
+        "Pucerons : sur boutons floraux. Eau savonneuse.",
+        "État observé : quelques taches sur feuilles (marsonia débutante), aspect clairsemé = enrichir sol."
+      ],
+      "specificite_ou_conseils": [
+        "✓ Climat : OK avec arrosage régulier et paillage.",
+        "Mistral : les buissons résistent bien mais peuvent perdre des feuilles.",
+        "✗ Exposition actuelle : plein sud contre MUR BLANC = réverbération solaire très forte. Stress hydrique important en été, PAILLAGE ÉPAIS indispensable (écorce, BRF, 5-10 cm).",
+        "Arrosage : toujours au pied, jamais sur les feuilles (favorise marsonia).",
+        "À faire rapidement : ramasser les feuilles tachées tombées, installer un paillage."
+      ],
+      "type": "outdoor",
+      "photos": [
+        "rosier.jpg"
+      ],
+      "instances": 1
+    },
+    {
+      "id": "stipa_cheveux_dange",
+      "nom": "Stipa cheveux d'ange",
+      "nom_scientifique": "Stipa tenuissima (syn. Nassella tenuissima)",
+      "famille": "Poacées (graminées)",
+      "page_manuel": 19,
+      "caracteristiques": {
+        "Type": "Graminée vivace ornementale",
+        "Taille adulte": "40 à 60 cm, touffe de 40 cm",
+        "Longévité": "5 à 10 ans (à diviser pour rajeunir)",
+        "Origine": "Amérique du Sud, Mexique",
+        "Rusticité": "Jusqu'à -15 °C",
+        "Vent / mistral": "Excellente ★★★★★ (effet spectaculaire)",
+        "Sécheresse": "Excellente ★★★★★",
+        "Exposition": "Plein soleil",
+        "Sol": "Drainant, sableux, pauvre OK"
+      },
+      "arrosage": {
+        "Printemps": "Jeune : 1×/sem. / Adulte : aucun",
+        "Été": "Rare, uniquement si sec prolongé",
+        "Automne": "Pluies suffisantes",
+        "Hiver": "Aucun arrosage"
+      },
+      "caracteristiques_decoratives": {
+        "Période": "Mai à août",
+        "Fleurs": "Épis plumeux blonds très fins",
+        "Effet": "Mouvement gracieux au vent",
+        "Auto-semis": "Fréquent, peut être envahissant"
+      },
+      "taille_nettoyage": "Quand : fin d'hiver (février-mars), AVANT la reprise de végétation. Fréquence : 1×/an IMPÉRATIVE, sinon la touffe se dégarnit au centre et pourrit. Méthode : rabattre toute la touffe à 10 cm du sol à la cisaille ou au sécateur. Démêler à la main ce qui reste pour enlever les feuilles mortes accrochées. Division : tous les 3-4 ans au printemps pour régénérer les vieilles touffes. Outils : cisaille à haies ou gros sécateur. Astuce : attacher la touffe en bouquet avant de couper pour faciliter le travail.",
+      "calendrier_saisonnier": {
+        "printemps": [
+          "Rabattage fév-mars OBLIGATOIRE",
+          "Démêler la touffe",
+          "Retirer semis non désirés",
+          "Division tous les 3-4 ans"
+        ],
+        "ete": [
+          "Floraison en cours",
+          "Aucun entretien",
+          "Pas d'arrosage adulte",
+          "Profiter du mouvement au vent"
+        ],
+        "automne": [
+          "Fin floraison",
+          "NE PAS couper",
+          "Laisser la touffe sèche",
+          "Surveiller auto-semis"
+        ],
+        "hiver": [
+          "Touffe dorée décorative",
+          "NE PAS couper",
+          "Protection naturelle",
+          "Taille reportée à février"
+        ]
+      },
+      "a_surveiller": [
+        "Pourriture du centre : si taille non faite en fin d'hiver, le centre dégarni retient l'eau et pourrit.",
+        "Auto-semis invasif : les graines colonisent les graviers environnants, retirer régulièrement.",
+        "Touffe qui se dégarnit : après 3-4 ans, diviser au printemps pour régénérer.",
+        "Peu de maladies : plante très rustique, quasi sans ennemis."
+      ],
+      "specificite_ou_conseils": [
+        "✓ Mistral : l'effet visuel le plus spectaculaire, les épis ondulent en vagues.",
+        "✓ Sécheresse : parfaitement adaptée, aucun arrosage nécessaire.",
+        "✓ Gelées : aucune protection nécessaire.",
+        "Emplacement actuel : gravier drainant le long de la clôture, idéal.",
+        "Observation : touffes sèches actuelles = rabattage urgent, la fenêtre de taille se ferme fin mars."
+      ],
+      "type": "outdoor",
+      "photos": [
+        "stipa-cheveux-d-ange.jpg"
+      ],
+      "instances": 1
+    },
+    {
+      "id": "fougere_de_boston",
+      "nom": "Fougère de Boston",
+      "nom_scientifique": "Nephrolepis exaltata",
+      "famille": "Néphrolépidacées",
+      "page_manuel": 21,
+      "caracteristiques": {
+        "Type": "Fougère persistante, frondes pendantes",
+        "Taille adulte": "60 à 90 cm de diamètre",
+        "Origine": "Régions tropicales (Amériques)",
+        "Lumière": "Indirecte vive — JAMAIS soleil direct",
+        "Humidité": "ÉLEVÉE ★★★★★ (vaporisations)",
+        "Température": "16-22 °C, supporte mal < 13 °C",
+        "Substrat": "Terreau plantes vertes, frais, drainant",
+        "Toxicité": "Non toxique chats, chiens, enfants",
+        "Air": "Dépolluante (formaldéhyde)"
+      },
+      "arrosage": {
+        "Printemps": "1×/semaine, garder humide",
+        "Été": "1-2×/semaine + vaporisations",
+        "Automne": "1×/semaine",
+        "Hiver": "1×/10 jours selon chauffage"
+      },
+      "caracteristiques_decoratives": {
+        "Décor": "Frondes plumeuses retombantes",
+        "Floraison": "Pas de fleurs (fougère)",
+        "Spores": "Sporanges bruns sous frondes (normal)",
+        "Effet": "Très décorative en suspension"
+      },
+      "taille_nettoyage": "Quand : toute l'année selon besoin. Méthode : couper à la base les frondes brunies ou abîmées, au sécateur. Aérer le pied régulièrement. Astuce humidité : poser le pot sur soucoupe avec billes d'argile + eau (sans contact direct) pour créer un microclimat humide. Vaporiser le feuillage 2-3×/semaine à l'eau non calcaire (pluie ou filtrée). Outil : sécateur fin désinfecté à l'alcool.",
+      "calendrier_saisonnier": {
+        "printemps": [
+          "Rempotage si racines saturent",
+          "Reprise engrais",
+          "Vaporisations +"
+        ],
+        "ete": [
+          "Arrosage soutenu",
+          "Vaporisations quotidiennes",
+          "Éviter courants d'air froid"
+        ],
+        "automne": [
+          "Espacer arrosages",
+          "Stop engrais",
+          "Couper frondes brunies"
+        ],
+        "hiver": [
+          "Loin des radiateurs",
+          "Maintenir humidité",
+          "Pas d'engrais"
+        ]
+      },
+      "a_surveiller": [
+        "Frondes qui brunissent en pointe : air trop sec, augmenter vaporisations.",
+        "Frondes jaunes : excès d'eau ou eau trop calcaire (utiliser eau de pluie).",
+        "Cochenilles farineuses entre les pinnules : retrait au coton imbibé d'alcool.",
+        "Chute de pinnules : courant d'air ou stress hydrique."
+      ],
+      "specificite_ou_conseils": [
+        "✓ Idéal salle de bain (humidité + lumière indirecte).",
+        "✓ La plus humidiphile des plantes d'intérieur courantes.",
+        "• Tes 2 sujets en suspension : parfait, ne pas exposer plein soleil.",
+        "• Vaporiser le feuillage à l'eau non calcaire 2×/semaine min.",
+        "• Tourner le pot 1×/mois pour développement homogène."
+      ],
+      "type": "indoor",
+      "photos": [
+        "fougere-de-boston.jpg"
+      ],
+      "instances": 2
+    },
+    {
+      "id": "sansevieria_cylindrique",
+      "nom": "Sansevieria cylindrique",
+      "nom_scientifique": "Dracaena angolensis (ex Sansevieria cylindrica)",
+      "famille": "Asparagacées",
+      "page_manuel": 22,
+      "caracteristiques": {
+        "Type": "Succulente, feuilles cylindriques rigides",
+        "Taille adulte": "60 cm à 1,50 m selon culture",
+        "Origine": "Afrique tropicale (Angola)",
+        "Lumière": "Très tolérante : plein soleil à mi-ombre",
+        "Humidité": "FAIBLE ★ (atmosphère sèche OK)",
+        "Température": "18-25 °C, supporte 10 °C minimum",
+        "Substrat": "Très drainant : cactus + sable + perlite",
+        "Toxicité": "TOXIQUE chats/chiens (saponines)",
+        "Air": "Dépolluante NASA, produit oxygène la nuit"
+      },
+      "arrosage": {
+        "Printemps": "1×/2 semaines",
+        "Été": "1×/15-20 jours selon chaleur",
+        "Automne": "1×/3 semaines",
+        "Hiver": "1×/mois ou moins"
+      },
+      "caracteristiques_decoratives": {
+        "Décor": "Feuilles graphiques verticales",
+        "Floraison": "Rare en intérieur, hampe blanche",
+        "Croissance": "Lente (1-2 nouvelles feuilles/an)"
+      },
+      "taille_nettoyage": "Quand : toute l'année si besoin. Méthode : couper à la base au cutter désinfecté toute feuille molle, noircie ou cassée. Laisser cicatriser à l'air 24h avant nouvel arrosage. Dépoussiérage : essuyer chaque feuille 1×/mois avec chiffon humide. Astuce : si feuille tombe ou se ramollit, vérifier IMMÉDIATEMENT le substrat — pourriture quasi-systématique avec excès d'eau. Outil : cutter désinfecté.",
+      "calendrier_saisonnier": {
+        "printemps": [
+          "Reprise arrosage progressif",
+          "Engrais cactus 1×/mois",
+          "Rempotage si tassé"
+        ],
+        "ete": [
+          "Arrosage espacé",
+          "Sortie possible terrasse mi-ombre",
+          "Engrais 1×/mois"
+        ],
+        "automne": [
+          "Ralentir arrosages",
+          "Rentrer si sortie estivale"
+        ],
+        "hiver": [
+          "Quasi-arrêt arrosage",
+          "Pas d'engrais",
+          "Loin des fenêtres froides"
+        ]
+      },
+      "a_surveiller": [
+        "POURRITURE RACINAIRE : ennemi N°1. Feuilles molles, jaunes en bas = excès d'eau.",
+        "Cochenilles farineuses sous les feuilles : alcool à 70° au coton-tige.",
+        "Pointes brunies : eau de robinet trop dure, préférer eau filtrée.",
+        "Feuilles fripées et molles : MANQUE d'eau (rare)."
+      ],
+      "specificite_ou_conseils": [
+        "✓ La plante d'intérieur la PLUS facile : elle tolère l'oubli.",
+        "✓ Idéale pour pièce peu lumineuse ou voyageurs absents.",
+        "• Règle d'or : MIEUX VAUT TROP SEC QUE TROP HUMIDE.",
+        "• Vérifier le substrat : doit être sec sur 5 cm avant d'arroser.",
+        "• Toxique : éloigner de chats/chiens si présents."
+      ],
+      "type": "indoor",
+      "photos": [
+        "sansevieria-cylindrica.jpg"
+      ],
+      "instances": 1
+    },
+    {
+      "id": "ficus_elastica_tineke",
+      "nom": "Ficus elastica Tineke",
+      "nom_scientifique": "Ficus elastica 'Tineke'",
+      "famille": "Moracées",
+      "page_manuel": 23,
+      "caracteristiques": {
+        "Type": "Arbuste persistant, feuilles panachées",
+        "Taille adulte": "1,5 à 3 m en intérieur",
+        "Origine": "Asie tropicale (Inde, Malaisie)",
+        "Lumière": "Très lumineuse INDISPENSABLE (panachure)",
+        "Humidité": "Modérée ★★★ (vaporisations bienvenues)",
+        "Température": "18-24 °C, jamais < 12 °C",
+        "Substrat": "Terreau plantes vertes, drainant",
+        "Toxicité": "Sève laiteuse irritante (latex)",
+        "Particularité": "Cultivar panaché vert/blanc/crème"
+      },
+      "arrosage": {
+        "Printemps": "1×/semaine, surface sèche entre 2",
+        "Été": "1×/semaine, plus si très chaud",
+        "Automne": "1×/10 jours",
+        "Hiver": "1×/15 jours, laisser sécher 3 cm"
+      },
+      "caracteristiques_decoratives": {
+        "Décor": "Feuillage panaché unique",
+        "Floraison": "Inexistante en intérieur",
+        "Croissance": "Modérée, port arbustif"
+      },
+      "taille_nettoyage": "Quand : printemps (mars-avril) pour ramifier. Méthode : couper l'apex à 5 cm au-dessus d'un nœud avec sécateur désinfecté, GANTS (latex irritant). Cicatriser la plaie avec cendre ou cire. La taille fait ramifier le sujet et densifie. Dépoussiérage IMPÉRATIF : essuyer chaque feuille 1×/15 jours au chiffon humide (la poussière bloque la photosynthèse et ternit la panachure). Outil : sécateur, gants, chiffon doux.",
+      "calendrier_saisonnier": {
+        "printemps": [
+          "TAILLE possible mars-avril",
+          "Rempotage tous les 2-3 ans",
+          "Engrais 1×/mois"
+        ],
+        "ete": [
+          "Arrosage régulier",
+          "Vaporisations si chaleur",
+          "Engrais 1×/mois"
+        ],
+        "automne": [
+          "Espacer arrosages",
+          "Stop engrais après septembre"
+        ],
+        "hiver": [
+          "Arrosages très espacés",
+          "Pas d'engrais",
+          "Maintenir lumière"
+        ]
+      },
+      "a_surveiller": [
+        "Perte de panachure (feuilles redeviennent vertes) : MANQUE de lumière, rapprocher fenêtre.",
+        "Feuilles qui jaunissent et tombent en bas : excès d'eau.",
+        "Taches brunes molles : excès d'eau ou eau trop froide.",
+        "Cochenilles : sous les feuilles et aux aisselles, savon noir ou alcool 70°.",
+        "Bord de feuilles brunies : eau trop dure ou air trop sec."
+      ],
+      "specificite_ou_conseils": [
+        "✓ Sujet bien fourni et bien panaché : excellent état actuel.",
+        "✓ Idéal en pièce très lumineuse non exposée plein sud direct.",
+        "• Dépoussiérer au chiffon humide 1×/15 jours.",
+        "• Tourner le pot d'1/4 chaque semaine (croissance homogène).",
+        "• Tuteurage parfois nécessaire : tiges peuvent céder sous le poids.",
+        "• Latex irritant : porter des gants pour la taille, attention enfants."
+      ],
+      "type": "indoor",
+      "photos": [
+        "ficus-elastica-tineke.jpg",
+        "ficus-elastica-tineke-2.jpg"
+      ],
+      "instances": 1
+    },
+    {
+      "id": "dracaena_sanderiana",
+      "nom": "Dracaena sanderiana",
+      "nom_scientifique": "Dracaena sanderiana — « Lucky bamboo »",
+      "famille": "Asparagacées",
+      "page_manuel": 24,
+      "caracteristiques": {
+        "Type": "Petit arbuste, tiges souvent torsadées",
+        "Taille adulte": "60 cm à 1 m en pot ou en eau",
+        "Origine": "Afrique centrale (Cameroun)",
+        "Lumière": "Indirecte vive, JAMAIS soleil direct",
+        "Humidité": "Modérée ★★★",
+        "Température": "18-25 °C, mini 15 °C",
+        "Toxicité": "TOXIQUE chats/chiens",
+        "Curiosité": "Pas un bambou — c'est un dracaena !",
+        "Substrat / eau": "En vase d'eau OU terre drainante"
+      },
+      "arrosage": {
+        "Eau (vase)": "Renouveler tous les 15 jours",
+        "Niveau": "Couvrir 5-7 cm de tige + racines",
+        "Eau (terre)": "Garder légèrement humide",
+        "Important": "Eau filtrée OU laissée 24h reposer"
+      },
+      "caracteristiques_decoratives": {
+        "Décor": "Tige souvent torsadée artificiellement",
+        "Floraison": "Très rare en intérieur",
+        "Croissance": "Lente, 1-2 feuilles/mois"
+      },
+      "taille_nettoyage": "Quand : si la tige devient trop haute. Méthode : couper la tige principale 2 cm au-dessus d'un nœud avec cutter désinfecté. La partie coupée peut servir de bouture (la mettre dans l'eau, racines en quelques semaines). Cicatriser la coupe sur la tige mère avec cire de bougie ou cendre. Pour eau de vase : EAU NON CALCAIRE impérative (filtrée, distillée ou eau du robinet laissée 24h pour évaporation du chlore). Outil : cutter désinfecté.",
+      "calendrier_saisonnier": {
+        "printemps": [
+          "Reprise croissance",
+          "Engrais liquide très dilué",
+          "Renouveler eau"
+        ],
+        "ete": [
+          "Renouveler eau régulièrement",
+          "Vaporiser si très sec",
+          "Loin du soleil direct"
+        ],
+        "automne": [
+          "Stop engrais",
+          "Maintenir niveau d'eau"
+        ],
+        "hiver": [
+          "Niveau d'eau OK",
+          "Loin des radiateurs",
+          "Pas d'engrais"
+        ]
+      },
+      "a_surveiller": [
+        "Feuilles jaunes : eau trop calcaire OU exposition soleil direct.",
+        "Tige qui ramollit et noircit : eau de mauvaise qualité, RENOUVELER d'urgence.",
+        "Pointes brunies des feuilles : air trop sec ou chlore dans l'eau.",
+        "Algues vertes sur les racines : nettoyer racines + vase à chaque renouvellement.",
+        "Cochenilles : rare sur cette plante."
+      ],
+      "specificite_ou_conseils": [
+        "✓ Sujet en vase d'eau : très belle présentation, soleil filtré sur ta photo.",
+        "• Renouveler l'eau intégralement TOUS LES 15 JOURS, pas plus tard.",
+        "• Eau du robinet : la laisser reposer 24h en bouteille ouverte avant usage.",
+        "• Symbole de chance dans la culture asiatique (« lucky bamboo »).",
+        "• Toxique chats/chiens : éloigner si animaux."
+      ],
+      "type": "indoor",
+      "photos": [
+        "dracaena-sanderiana.jpg",
+        "dracaena-sanderiana-2.jpg"
+      ],
+      "instances": 1
+    }
+  ],
+  "calendrier_jardin_mois": {
+    "10": {
+      "mois": "Octobre",
+      "contexte": "Automne doux. Bon mois pour les plantations. Les arrosages deviennent inutiles.",
+      "actions": [
+        {
+          "categorie": "TAILLE",
+          "plante": "Cyprès de Provence",
+          "action": "Dernière fenêtre pour la taille automnale. Retirer tout bois mort.",
+          "plante_id": "cypres_de_provence"
+        },
+        {
+          "categorie": "TAILLE",
+          "plante": "Palmier chanvre",
+          "action": "Seconde fenêtre de taille : retirer palmes sèches.",
+          "plante_id": "palmier_chanvre"
+        },
+        {
+          "categorie": "TAILLE",
+          "plante": "Laurier-rose",
+          "action": "Seconde fenêtre de taille possible (post-floraison).",
+          "plante_id": "laurier_rose"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Oranger",
+          "action": "Arroser uniquement si pluies insuffisantes.",
+          "plante_id": "oranger"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Citronnier",
+          "action": "Réduire selon pluies.",
+          "plante_id": "citronnier"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Bougainvillier",
+          "action": "ARRÊT progressif des arrosages.",
+          "plante_id": "bougainvillier"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Yucca superbe",
+          "action": "Aucun arrosage : les pluies automnales suffisent largement.",
+          "plante_id": "yucca_superbe"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Euphorbe candélabre",
+          "action": "ARRÊT complet des arrosages.",
+          "plante_id": "euphorbe_candelabre"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Cactus myrtille (cactus bleu)",
+          "action": "ARRÊT complet des arrosages.",
+          "plante_id": "cactus_myrtille_cactus_bleu"
+        },
+        {
+          "categorie": "TRAITEMENT",
+          "plante": "Palmier chanvre",
+          "action": "Traitement automnal nématodes (renouveler celui de mars).",
+          "plante_id": "palmier_chanvre"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Laurier-rose",
+          "action": "Fin de la floraison.",
+          "plante_id": "laurier_rose"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Bougainvillier",
+          "action": "Fin de floraison.",
+          "plante_id": "bougainvillier"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Rosier buisson",
+          "action": "Floraison tardive possible jusqu'aux gelées.",
+          "plante_id": "rosier_buisson"
+        },
+        {
+          "categorie": "NETTOYAGE",
+          "plante": "Cyprès de Provence",
+          "action": "Retirer les aiguilles tombées au pied pour limiter l'humidité stagnante.",
+          "plante_id": "cypres_de_provence"
+        },
+        {
+          "categorie": "NETTOYAGE",
+          "plante": "Palmier chanvre",
+          "action": "Retirer fibres brunes du tronc si aspect disgracieux.",
+          "plante_id": "palmier_chanvre"
+        },
+        {
+          "categorie": "NETTOYAGE",
+          "plante": "Cycas du Japon",
+          "action": "Retirer débris autour du pied. Arrêter tout arrosage.",
+          "plante_id": "cycas_du_japon"
+        },
+        {
+          "categorie": "NETTOYAGE",
+          "plante": "Mimosa d'hiver",
+          "action": "Arracher les nouveaux drageons apparus en été.",
+          "plante_id": "mimosa_dhiver"
+        },
+        {
+          "categorie": "NETTOYAGE",
+          "plante": "Photinia Red Robin",
+          "action": "RAMASSAGE impératif des feuilles tombées (limite propagation entomosporiose).",
+          "plante_id": "photinia_red_robin"
+        },
+        {
+          "categorie": "NETTOYAGE",
+          "plante": "Yucca superbe",
+          "action": "Retirer les feuilles mortes au sol autour du pied pour aérer.",
+          "plante_id": "yucca_superbe"
+        },
+        {
+          "categorie": "NETTOYAGE",
+          "plante": "Euphorbe candélabre",
+          "action": "Désherber complètement la base avant l'hiver.",
+          "plante_id": "euphorbe_candelabre"
+        },
+        {
+          "categorie": "NETTOYAGE",
+          "plante": "Cactus myrtille (cactus bleu)",
+          "action": "Désherber autour du pied avant l'hiver.",
+          "plante_id": "cactus_myrtille_cactus_bleu"
+        },
+        {
+          "categorie": "NETTOYAGE",
+          "plante": "Rosier buisson",
+          "action": "RAMASSAGE des feuilles tombées (marsonia : limiter propagation).",
+          "plante_id": "rosier_buisson"
+        },
+        {
+          "categorie": "PRÉPARATION",
+          "plante": "Olivier",
+          "action": "Préparer filets au sol ou technique de récolte choisie.",
+          "plante_id": "olivier"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Olivier",
+          "action": "Fruits se colorent, certaines variétés récoltables fin octobre.",
+          "plante_id": "olivier"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Oranger",
+          "action": "Fruits grossissent et commencent à changer de couleur.",
+          "plante_id": "oranger"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Citronnier",
+          "action": "Fruits commencent à se colorer (jaune).",
+          "plante_id": "citronnier"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Mimosa d'hiver",
+          "action": "AUCUNE taille (supprimerait les futurs fleurs).",
+          "plante_id": "mimosa_dhiver"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Jasmin étoilé",
+          "action": "Feuillage prend ses teintes automnales bronze.",
+          "plante_id": "jasmin_etoile"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Aeonium",
+          "action": "Croissance spectaculaire reprise, rosettes se rouvrent.",
+          "plante_id": "aeonium"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Echeveria",
+          "action": "Couleurs qui se renforcent avec les températures plus fraîches.",
+          "plante_id": "echeveria"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Lavande",
+          "action": "Aucune intervention.",
+          "plante_id": "lavande"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Stipa cheveux d'ange",
+          "action": "La touffe prend ses teintes dorées d'automne, NE PAS couper.",
+          "plante_id": "stipa_cheveux_dange"
+        }
+      ]
+    },
+    "11": {
+      "mois": "Novembre",
+      "contexte": "Pluies plus régulières. Mois de nettoyage et de préparation de l'hiver.",
+      "actions": [
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Oranger",
+          "action": "Quasi arrêt des arrosages.",
+          "plante_id": "oranger"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Aeonium",
+          "action": "Arrosage normal si sec, pluies généralement suffisantes.",
+          "plante_id": "aeonium"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Echeveria",
+          "action": "Très espacer : 1×/mois suffit.",
+          "plante_id": "echeveria"
+        },
+        {
+          "categorie": "TRAITEMENT",
+          "plante": "Olivier",
+          "action": "Bouillie bordelaise post-récolte contre l'œil-de-paon.",
+          "plante_id": "olivier"
+        },
+        {
+          "categorie": "RÉCOLTE",
+          "plante": "Olivier",
+          "action": "DÉBUT DE RÉCOLTE : olives vertes à tournantes selon variété et préférence.",
+          "plante_id": "olivier"
+        },
+        {
+          "categorie": "RÉCOLTE",
+          "plante": "Citronnier",
+          "action": "Premiers citrons mûrs prêts à cueillir.",
+          "plante_id": "citronnier"
+        },
+        {
+          "categorie": "PROTECTION",
+          "plante": "Oranger",
+          "action": "Préparer le voile d'hivernage, à avoir sous la main.",
+          "plante_id": "oranger"
+        },
+        {
+          "categorie": "PROTECTION",
+          "plante": "Citronnier",
+          "action": "Préparer voile d'hivernage, l'avoir sous la main.",
+          "plante_id": "citronnier"
+        },
+        {
+          "categorie": "PROTECTION",
+          "plante": "Euphorbe candélabre",
+          "action": "Préparer voile d'hivernage et bâche plastique si besoin.",
+          "plante_id": "euphorbe_candelabre"
+        },
+        {
+          "categorie": "PROTECTION",
+          "plante": "Cactus myrtille (cactus bleu)",
+          "action": "Préparer voile d'hivernage et bâche plastique.",
+          "plante_id": "cactus_myrtille_cactus_bleu"
+        },
+        {
+          "categorie": "PAILLAGE",
+          "plante": "Rosier buisson",
+          "action": "Paillage organique épais (compost, BRF, écorces) de 5-10 cm au pied.",
+          "plante_id": "rosier_buisson"
+        },
+        {
+          "categorie": "NETTOYAGE",
+          "plante": "Photinia Red Robin",
+          "action": "Finaliser le ramassage automnal.",
+          "plante_id": "photinia_red_robin"
+        },
+        {
+          "categorie": "NETTOYAGE",
+          "plante": "Bougainvillier",
+          "action": "Ramasser les bractées tombées si envie (non obligatoire).",
+          "plante_id": "bougainvillier"
+        },
+        {
+          "categorie": "NETTOYAGE",
+          "plante": "Rosier buisson",
+          "action": "Dernier ramassage des feuilles malades avant repos.",
+          "plante_id": "rosier_buisson"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Cyprès de Provence",
+          "action": "Vérifier que l'eau ne stagne pas au pied après les pluies d'automne.",
+          "plante_id": "cypres_de_provence"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Palmier chanvre",
+          "action": "Vérifier drainage autour du pied avant pluies d'hiver.",
+          "plante_id": "palmier_chanvre"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Cycas du Japon",
+          "action": "Vérifier que l'eau ne stagne pas au pied avec les pluies.",
+          "plante_id": "cycas_du_japon"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Mimosa d'hiver",
+          "action": "Boutons floraux en développement. Ne pas tailler sous aucun prétexte.",
+          "plante_id": "mimosa_dhiver"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Laurier-rose",
+          "action": "Surveillance cochenilles avant repos hivernal.",
+          "plante_id": "laurier_rose"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Photinia Red Robin",
+          "action": "Feuillage vert persistant, quelques pousses rouges résiduelles.",
+          "plante_id": "photinia_red_robin"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Bougainvillier",
+          "action": "Semi-défoliation normale avec les premiers froids.",
+          "plante_id": "bougainvillier"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Jasmin étoilé",
+          "action": "Feuillage persistant reste décoratif. Arrêter les arrosages.",
+          "plante_id": "jasmin_etoile"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Yucca superbe",
+          "action": "Vérifier que l'eau ne stagne pas au pied. Ajouter cailloux ou graviers si besoin.",
+          "plante_id": "yucca_superbe"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Lavande",
+          "action": "Aucune intervention. Laisser la plante se préparer à l'hiver.",
+          "plante_id": "lavande"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Stipa cheveux d'ange",
+          "action": "Laisser la touffe en place : elle est décorative et se protège du gel.",
+          "plante_id": "stipa_cheveux_dange"
+        }
+      ]
+    },
+    "12": {
+      "mois": "Décembre",
+      "contexte": "Jardin au repos. Mois calme : planifier l'année suivante, affûter les outils.",
+      "actions": [
+        {
+          "categorie": "TRAITEMENT",
+          "plante": "Olivier",
+          "action": "Huile blanche contre cochenilles si infestation visible.",
+          "plante_id": "olivier"
+        },
+        {
+          "categorie": "RÉCOLTE",
+          "plante": "Olivier",
+          "action": "Suite de la récolte : olives noires mûres pour huile.",
+          "plante_id": "olivier"
+        },
+        {
+          "categorie": "RÉCOLTE",
+          "plante": "Oranger",
+          "action": "Premiers fruits mûrs prêts à être cueillis.",
+          "plante_id": "oranger"
+        },
+        {
+          "categorie": "RÉCOLTE",
+          "plante": "Citronnier",
+          "action": "Pleine saison de récolte des citrons.",
+          "plante_id": "citronnier"
+        },
+        {
+          "categorie": "PROTECTION",
+          "plante": "Oranger",
+          "action": "Voile d'hivernage OBLIGATOIRE les nuits annoncées à < -3 °C.",
+          "plante_id": "oranger"
+        },
+        {
+          "categorie": "PROTECTION",
+          "plante": "Citronnier",
+          "action": "VOILE D'HIVERNAGE les nuits à < -3 °C.",
+          "plante_id": "citronnier"
+        },
+        {
+          "categorie": "PROTECTION",
+          "plante": "Mimosa d'hiver",
+          "action": "Préparer voile d'hivernage pour jeune sujet si prévisions < -5 °C.",
+          "plante_id": "mimosa_dhiver"
+        },
+        {
+          "categorie": "PROTECTION",
+          "plante": "Euphorbe candélabre",
+          "action": "Voile OBLIGATOIRE les nuits froides. Sol RIGOUREUSEMENT sec.",
+          "plante_id": "euphorbe_candelabre"
+        },
+        {
+          "categorie": "PROTECTION",
+          "plante": "Cactus myrtille (cactus bleu)",
+          "action": "Protection OBLIGATOIRE les nuits froides. Vérifier sol parfaitement sec.",
+          "plante_id": "cactus_myrtille_cactus_bleu"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Mimosa d'hiver",
+          "action": "Premiers pompons qui commencent à se colorer en bout de rameaux.",
+          "plante_id": "mimosa_dhiver"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Aeonium",
+          "action": "Végétation active. Aucun arrosage si pluies régulières.",
+          "plante_id": "aeonium"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Echeveria",
+          "action": "Teintes hivernales les plus intenses. Arrosage minimal.",
+          "plante_id": "echeveria"
+        },
+        {
+          "categorie": "REPOS",
+          "plante": "Cyprès de Provence",
+          "action": "Repos total. Aucune intervention.",
+          "plante_id": "cypres_de_provence"
+        },
+        {
+          "categorie": "REPOS",
+          "plante": "Palmier chanvre",
+          "action": "Repos total. Aucune intervention.",
+          "plante_id": "palmier_chanvre"
+        },
+        {
+          "categorie": "REPOS",
+          "plante": "Cycas du Japon",
+          "action": "Plante totalement au repos.",
+          "plante_id": "cycas_du_japon"
+        },
+        {
+          "categorie": "REPOS",
+          "plante": "Laurier-rose",
+          "action": "Plante au repos. Aucune intervention.",
+          "plante_id": "laurier_rose"
+        },
+        {
+          "categorie": "REPOS",
+          "plante": "Photinia Red Robin",
+          "action": "Plante au repos. Aucune intervention.",
+          "plante_id": "photinia_red_robin"
+        },
+        {
+          "categorie": "REPOS",
+          "plante": "Bougainvillier",
+          "action": "Plante au repos total. Aucune intervention.",
+          "plante_id": "bougainvillier"
+        },
+        {
+          "categorie": "REPOS",
+          "plante": "Jasmin étoilé",
+          "action": "Feuillage persistant rougi par le froid. Décoratif, aucune intervention.",
+          "plante_id": "jasmin_etoile"
+        },
+        {
+          "categorie": "REPOS",
+          "plante": "Yucca superbe",
+          "action": "Rien à faire. Plante totalement au repos.",
+          "plante_id": "yucca_superbe"
+        },
+        {
+          "categorie": "REPOS",
+          "plante": "Lavande",
+          "action": "Plante au repos total. Aucune intervention.",
+          "plante_id": "lavande"
+        },
+        {
+          "categorie": "REPOS",
+          "plante": "Rosier buisson",
+          "action": "Plante au repos. Butter le pied pour protéger le point de greffe.",
+          "plante_id": "rosier_buisson"
+        },
+        {
+          "categorie": "REPOS",
+          "plante": "Stipa cheveux d'ange",
+          "action": "Touffe sèche dorée, très décorative en hiver. Aucune intervention.",
+          "plante_id": "stipa_cheveux_dange"
+        }
+      ]
+    },
+    "01": {
+      "mois": "Janvier",
+      "contexte": "Mois le plus froid. Gelées possibles la nuit. La nature est au repos, observer sans intervenir.",
+      "actions": [
+        {
+          "categorie": "FLORAISON",
+          "plante": "Mimosa d'hiver",
+          "action": "DÉBUT DE FLORAISON : premiers pompons jaunes, parfum qui commence.",
+          "plante_id": "mimosa_dhiver"
+        },
+        {
+          "categorie": "RÉCOLTE",
+          "plante": "Olivier",
+          "action": "Fin de la récolte si olives encore présentes.",
+          "plante_id": "olivier"
+        },
+        {
+          "categorie": "RÉCOLTE",
+          "plante": "Oranger",
+          "action": "Récolte des fruits mûrs (oranges tardives).",
+          "plante_id": "oranger"
+        },
+        {
+          "categorie": "RÉCOLTE",
+          "plante": "Citronnier",
+          "action": "Récolte des citrons mûrs (principale saison).",
+          "plante_id": "citronnier"
+        },
+        {
+          "categorie": "PROTECTION",
+          "plante": "Oranger",
+          "action": "Surveiller prévisions météo : voile d'hivernage les nuits à < -3 °C.",
+          "plante_id": "oranger"
+        },
+        {
+          "categorie": "PROTECTION",
+          "plante": "Citronnier",
+          "action": "Voile OBLIGATOIRE les nuits à < -3 °C.",
+          "plante_id": "citronnier"
+        },
+        {
+          "categorie": "PROTECTION",
+          "plante": "Mimosa d'hiver",
+          "action": "Si jeune sujet et prévision < -5 °C : voile d'hivernage.",
+          "plante_id": "mimosa_dhiver"
+        },
+        {
+          "categorie": "PROTECTION",
+          "plante": "Euphorbe candélabre",
+          "action": "Protection hivernale impérative les nuits à < -2 °C : voile d'hivernage.",
+          "plante_id": "euphorbe_candelabre"
+        },
+        {
+          "categorie": "PROTECTION",
+          "plante": "Cactus myrtille (cactus bleu)",
+          "action": "Voile + bâche si prévision < -2 °C. Sol rigoureusement sec.",
+          "plante_id": "cactus_myrtille_cactus_bleu"
+        },
+        {
+          "categorie": "PROTECTION",
+          "plante": "Aeonium",
+          "action": "Voile si prévision de gel < -2 °C.",
+          "plante_id": "aeonium"
+        },
+        {
+          "categorie": "PROTECTION",
+          "plante": "Echeveria",
+          "action": "Voile ou cloche si prévision de gel < -4 °C.",
+          "plante_id": "echeveria"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Olivier",
+          "action": "Observer la silhouette avant la taille de février.",
+          "plante_id": "olivier"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Yucca superbe",
+          "action": "Rien à faire. Observer l'état général avant la taille de février-mars.",
+          "plante_id": "yucca_superbe"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Euphorbe candélabre",
+          "action": "Vérifier absence d'humidité au pied (cause de pourriture).",
+          "plante_id": "euphorbe_candelabre"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Cactus myrtille (cactus bleu)",
+          "action": "Noter l'évolution des nécroses pour comparer à l'arrivée du printemps.",
+          "plante_id": "cactus_myrtille_cactus_bleu"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Aeonium",
+          "action": "Végétation active l'hiver (à l'inverse de la plupart des plantes).",
+          "plante_id": "aeonium"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Echeveria",
+          "action": "Couleurs pourpres d'hiver, très décoratives.",
+          "plante_id": "echeveria"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Stipa cheveux d'ange",
+          "action": "Touffes dorées sèches, décoratives. Préparer la taille pour février.",
+          "plante_id": "stipa_cheveux_dange"
+        },
+        {
+          "categorie": "REPOS",
+          "plante": "Cyprès de Provence",
+          "action": "Repos total. Aucune intervention nécessaire.",
+          "plante_id": "cypres_de_provence"
+        },
+        {
+          "categorie": "REPOS",
+          "plante": "Palmier chanvre",
+          "action": "Aucune intervention. Palmier au repos.",
+          "plante_id": "palmier_chanvre"
+        },
+        {
+          "categorie": "REPOS",
+          "plante": "Cycas du Japon",
+          "action": "Aucune intervention. Observation de l'état général.",
+          "plante_id": "cycas_du_japon"
+        },
+        {
+          "categorie": "REPOS",
+          "plante": "Laurier-rose",
+          "action": "Plante au repos. Aucune intervention.",
+          "plante_id": "laurier_rose"
+        },
+        {
+          "categorie": "REPOS",
+          "plante": "Photinia Red Robin",
+          "action": "Aucune intervention nécessaire.",
+          "plante_id": "photinia_red_robin"
+        },
+        {
+          "categorie": "REPOS",
+          "plante": "Bougainvillier",
+          "action": "Plante au repos. Arrosage strictement arrêté.",
+          "plante_id": "bougainvillier"
+        },
+        {
+          "categorie": "REPOS",
+          "plante": "Jasmin étoilé",
+          "action": "Feuillage persistant, teinte bronze-rouge hivernale. Aucune intervention.",
+          "plante_id": "jasmin_etoile"
+        },
+        {
+          "categorie": "REPOS",
+          "plante": "Lavande",
+          "action": "Plante au repos. Aucune intervention.",
+          "plante_id": "lavande"
+        },
+        {
+          "categorie": "REPOS",
+          "plante": "Rosier buisson",
+          "action": "Plante au repos. Vérifier que le pied est bien butté/paillé.",
+          "plante_id": "rosier_buisson"
+        }
+      ]
+    },
+    "02": {
+      "mois": "Février",
+      "contexte": "Fin d'hiver. Premier mois des tailles de nettoyage. Attendre une journée sans gel.",
+      "actions": [
+        {
+          "categorie": "TAILLE",
+          "plante": "Olivier",
+          "action": "Taille de fin d'hiver en gobelet : charpentières, gourmands, bois mort. Hors gel.",
+          "plante_id": "olivier"
+        },
+        {
+          "categorie": "TAILLE",
+          "plante": "Photinia Red Robin",
+          "action": "Taille de fin d'hiver possible : retirer bois mort, rééquilibrer la silhouette.",
+          "plante_id": "photinia_red_robin"
+        },
+        {
+          "categorie": "TAILLE",
+          "plante": "Yucca superbe",
+          "action": "Fin d'hiver : retirer les feuilles sèches de la base avec des gants épais. Couper les hampes florales fanées à ras. Hors période de gel.",
+          "plante_id": "yucca_superbe"
+        },
+        {
+          "categorie": "TAILLE",
+          "plante": "Rosier buisson",
+          "action": "TAILLE PRINCIPALE de fin d'hiver : rabattre à 3-5 yeux (20-30 cm). Retirer bois mort et chétif. Hors gel.",
+          "plante_id": "rosier_buisson"
+        },
+        {
+          "categorie": "TAILLE",
+          "plante": "Stipa cheveux d'ange",
+          "action": "RABATTAGE OBLIGATOIRE : couper toute la touffe à 10 cm du sol. Démêler les feuilles mortes à la main. Avant la reprise de végétation.",
+          "plante_id": "stipa_cheveux_dange"
+        },
+        {
+          "categorie": "FERTILISATION",
+          "plante": "Olivier",
+          "action": "Apport compost ou fumier bien décomposé au pied (2 poignées par m²).",
+          "plante_id": "olivier"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Mimosa d'hiver",
+          "action": "PLEINE FLORAISON spectaculaire : l'arbre devient entièrement jaune et parfumé.",
+          "plante_id": "mimosa_dhiver"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Aeonium",
+          "action": "Floraison possible : grande panicule pyramidale jaune vif.",
+          "plante_id": "aeonium"
+        },
+        {
+          "categorie": "RÉCOLTE",
+          "plante": "Oranger",
+          "action": "Suite de la récolte si fruits encore présents.",
+          "plante_id": "oranger"
+        },
+        {
+          "categorie": "RÉCOLTE",
+          "plante": "Citronnier",
+          "action": "Suite récolte, fin probable selon variété.",
+          "plante_id": "citronnier"
+        },
+        {
+          "categorie": "RÉCOLTE",
+          "plante": "Mimosa d'hiver",
+          "action": "Possibilité de couper des branches pour bouquets. Plonger les pieds dans eau chaude pour prolonger.",
+          "plante_id": "mimosa_dhiver"
+        },
+        {
+          "categorie": "PROTECTION",
+          "plante": "Euphorbe candélabre",
+          "action": "Maintien de la protection hivernale si prévisions froides.",
+          "plante_id": "euphorbe_candelabre"
+        },
+        {
+          "categorie": "NETTOYAGE",
+          "plante": "Rosier buisson",
+          "action": "Retirer le paillage hivernal qui pourrait étouffer le pied.",
+          "plante_id": "rosier_buisson"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Cyprès de Provence",
+          "action": "Vérifier la silhouette après l'hiver. Repérer les rameaux morts ou jaunis à traiter en mars.",
+          "plante_id": "cypres_de_provence"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Palmier chanvre",
+          "action": "Vérifier l'état général avant la taille de printemps.",
+          "plante_id": "palmier_chanvre"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Cycas du Japon",
+          "action": "Surveillance cochenilles avant la reprise de végétation.",
+          "plante_id": "cycas_du_japon"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Oranger",
+          "action": "Fin de protection hivernale à prévoir.",
+          "plante_id": "oranger"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Citronnier",
+          "action": "Surveiller cochenilles avant la taille de mars.",
+          "plante_id": "citronnier"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Laurier-rose",
+          "action": "Préparer la taille de mars. Surveillance cochenilles sur rameaux dénudés.",
+          "plante_id": "laurier_rose"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Bougainvillier",
+          "action": "Préparer la taille de rajeunissement de mars.",
+          "plante_id": "bougainvillier"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Jasmin étoilé",
+          "action": "Préparer la taille de mars si rajeunissement nécessaire.",
+          "plante_id": "jasmin_etoile"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Euphorbe candélabre",
+          "action": "Aucun arrosage, sol totalement sec.",
+          "plante_id": "euphorbe_candelabre"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Cactus myrtille (cactus bleu)",
+          "action": "Préparer la taille d'assainissement de mars. Outils désinfectés.",
+          "plante_id": "cactus_myrtille_cactus_bleu"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Aeonium",
+          "action": "Surveillance cochenilles au cœur des rosettes.",
+          "plante_id": "aeonium"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Echeveria",
+          "action": "Surveillance cochenilles. Vérifier drainage.",
+          "plante_id": "echeveria"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Lavande",
+          "action": "Observer l'état : touffe vert-gris = saine, bois gris nu = problème.",
+          "plante_id": "lavande"
+        }
+      ]
+    },
+    "03": {
+      "mois": "Mars",
+      "contexte": "Redémarrage de la végétation. Derniers travaux d'hiver, préparation du printemps. MOIS LE PLUS CHARGÉ.",
+      "actions": [
+        {
+          "categorie": "TAILLE",
+          "plante": "Olivier",
+          "action": "Dernière fenêtre de taille si non faite en février.",
+          "plante_id": "olivier"
+        },
+        {
+          "categorie": "TAILLE",
+          "plante": "Cyprès de Provence",
+          "action": "Début de la fenêtre de taille : rafraîchissement léger à la cisaille pour contenir le port. Hors gel. Outils désinfectés à l'alcool entre chaque coupe.",
+          "plante_id": "cypres_de_provence"
+        },
+        {
+          "categorie": "TAILLE",
+          "plante": "Palmier chanvre",
+          "action": "Retirer les palmes complètement sèches au ras du tronc.",
+          "plante_id": "palmier_chanvre"
+        },
+        {
+          "categorie": "TAILLE",
+          "plante": "Cycas du Japon",
+          "action": "Retirer les palmes complètement sèches au ras du tronc. Hors gel.",
+          "plante_id": "cycas_du_japon"
+        },
+        {
+          "categorie": "TAILLE",
+          "plante": "Oranger",
+          "action": "Taille d'entretien : retirer bois mort, gourmands, branches qui se croisent. Hors gel.",
+          "plante_id": "oranger"
+        },
+        {
+          "categorie": "TAILLE",
+          "plante": "Citronnier",
+          "action": "TAILLE D'ENTRETIEN : bois mort, gourmands, éclaircissage du centre. Hors gel.",
+          "plante_id": "citronnier"
+        },
+        {
+          "categorie": "TAILLE",
+          "plante": "Mimosa d'hiver",
+          "action": "TAILLE PRINCIPALE : rabattre les rameaux défleuris d'1/3 à 2/3. Retirer bois mort, branches croisées. IMPÉRATIF pour la floraison suivante.",
+          "plante_id": "mimosa_dhiver"
+        },
+        {
+          "categorie": "TAILLE",
+          "plante": "Laurier-rose",
+          "action": "TAILLE PRINCIPALE : supprimer rejets du pied, bois mort, rééquilibrer. Rabattage au tiers possible si rajeunissement nécessaire.",
+          "plante_id": "laurier_rose"
+        },
+        {
+          "categorie": "TAILLE",
+          "plante": "Bougainvillier",
+          "action": "TAILLE PRINCIPALE : retirer bois mort, rabattre d'1/3 minimum. Rajeunissement sévère possible (50 cm sol). GANTS épais obligatoires.",
+          "plante_id": "bougainvillier"
+        },
+        {
+          "categorie": "TAILLE",
+          "plante": "Jasmin étoilé",
+          "action": "Taille de fin d'hiver : rabattre ce qui est trop long, retirer bois mort. Rajeunissement possible (rabattage au tiers si pied vieillissant).",
+          "plante_id": "jasmin_etoile"
+        },
+        {
+          "categorie": "TAILLE",
+          "plante": "Yucca superbe",
+          "action": "Dernière fenêtre pour la taille si non faite en février. Nettoyage complet de la base.",
+          "plante_id": "yucca_superbe"
+        },
+        {
+          "categorie": "TAILLE",
+          "plante": "Cactus myrtille (cactus bleu)",
+          "action": "ASSAINISSEMENT URGENT : couper nettement les tiges nécrosées 5 cm sous les zones mortes. Appliquer cannelle en poudre. Gants épais.",
+          "plante_id": "cactus_myrtille_cactus_bleu"
+        },
+        {
+          "categorie": "TAILLE",
+          "plante": "Aeonium",
+          "action": "Bouturage possible : étêter, laisser cicatriser 3-5 j, replanter.",
+          "plante_id": "aeonium"
+        },
+        {
+          "categorie": "TAILLE",
+          "plante": "Aeonium",
+          "action": "Couper hampes florales fanées à la base (rosette meurt après floraison).",
+          "plante_id": "aeonium"
+        },
+        {
+          "categorie": "TAILLE",
+          "plante": "Lavande",
+          "action": "TAILLE CRUCIALE : rabattre court en boule (10-15 cm). Jamais dans le vieux bois gris (ne repousse pas).",
+          "plante_id": "lavande"
+        },
+        {
+          "categorie": "TAILLE",
+          "plante": "Stipa cheveux d'ange",
+          "action": "Dernière fenêtre de rabattage si non fait en février.",
+          "plante_id": "stipa_cheveux_dange"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Oranger",
+          "action": "Reprise des arrosages réguliers : 1-2×/semaine.",
+          "plante_id": "oranger"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Citronnier",
+          "action": "Reprise progressive : 1×/semaine.",
+          "plante_id": "citronnier"
+        },
+        {
+          "categorie": "FERTILISATION",
+          "plante": "Cycas du Japon",
+          "action": "Apport léger d'engrais palmier ou compost décomposé.",
+          "plante_id": "cycas_du_japon"
+        },
+        {
+          "categorie": "FERTILISATION",
+          "plante": "Oranger",
+          "action": "PREMIER apport d'engrais spécial agrumes (important).",
+          "plante_id": "oranger"
+        },
+        {
+          "categorie": "FERTILISATION",
+          "plante": "Citronnier",
+          "action": "PREMIER apport d'engrais spécial agrumes.",
+          "plante_id": "citronnier"
+        },
+        {
+          "categorie": "FERTILISATION",
+          "plante": "Laurier-rose",
+          "action": "Engrais arbustes à fleurs ou compost.",
+          "plante_id": "laurier_rose"
+        },
+        {
+          "categorie": "FERTILISATION",
+          "plante": "Bougainvillier",
+          "action": "Engrais spécial plantes à fleurs (riche en P et K, pauvre en N).",
+          "plante_id": "bougainvillier"
+        },
+        {
+          "categorie": "FERTILISATION",
+          "plante": "Jasmin étoilé",
+          "action": "Apport engrais organique + chélate de fer si chlorose observée.",
+          "plante_id": "jasmin_etoile"
+        },
+        {
+          "categorie": "FERTILISATION",
+          "plante": "Rosier buisson",
+          "action": "IMPORTANT : engrais rosiers + 1 poignée de corne broyée à la base. Griffer superficiellement.",
+          "plante_id": "rosier_buisson"
+        },
+        {
+          "categorie": "TRAITEMENT",
+          "plante": "Olivier",
+          "action": "Bouillie bordelaise préventive contre l'œil-de-paon.",
+          "plante_id": "olivier"
+        },
+        {
+          "categorie": "TRAITEMENT",
+          "plante": "Palmier chanvre",
+          "action": "Traitement préventif nématodes contre le papillon palmivore.",
+          "plante_id": "palmier_chanvre"
+        },
+        {
+          "categorie": "TRAITEMENT",
+          "plante": "Citronnier",
+          "action": "Si pied dégradé : apport CHÉLATE DE FER contre chlorose.",
+          "plante_id": "citronnier"
+        },
+        {
+          "categorie": "TRAITEMENT",
+          "plante": "Rosier buisson",
+          "action": "1er traitement préventif bouillie bordelaise (contre marsonia).",
+          "plante_id": "rosier_buisson"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Mimosa d'hiver",
+          "action": "Fin de floraison, pompons qui fanent.",
+          "plante_id": "mimosa_dhiver"
+        },
+        {
+          "categorie": "DIVISION",
+          "plante": "Echeveria",
+          "action": "Séparer les rejets latéraux si souhait de multiplication.",
+          "plante_id": "echeveria"
+        },
+        {
+          "categorie": "DIVISION",
+          "plante": "Stipa cheveux d'ange",
+          "action": "Tous les 3-4 ans : diviser les vieilles touffes en 2-3 morceaux et replanter.",
+          "plante_id": "stipa_cheveux_dange"
+        },
+        {
+          "categorie": "NETTOYAGE",
+          "plante": "Aeonium",
+          "action": "DÉSHERBAGE du massif (oxalis, adventices envahissent).",
+          "plante_id": "aeonium"
+        },
+        {
+          "categorie": "NETTOYAGE",
+          "plante": "Echeveria",
+          "action": "Retirer feuilles mortes du bas de la rosette à la main.",
+          "plante_id": "echeveria"
+        },
+        {
+          "categorie": "NETTOYAGE",
+          "plante": "Echeveria",
+          "action": "DÉSHERBAGE du massif (adventices étouffent la plante).",
+          "plante_id": "echeveria"
+        },
+        {
+          "categorie": "NETTOYAGE",
+          "plante": "Lavande",
+          "action": "Retirer feuilles mortes et débris autour de la touffe.",
+          "plante_id": "lavande"
+        },
+        {
+          "categorie": "NETTOYAGE",
+          "plante": "Stipa cheveux d'ange",
+          "action": "Retirer les jeunes semis non désirés dans les graviers alentour.",
+          "plante_id": "stipa_cheveux_dange"
+        }
+      ]
+    },
+    "04": {
+      "mois": "Avril",
+      "contexte": "Pleine reprise. Mois idéal pour fertilisations légères. Attention aux gelées tardives rares.",
+      "actions": [
+        {
+          "categorie": "TAILLE",
+          "plante": "Cyprès de Provence",
+          "action": "Fin de la fenêtre de taille de printemps. Retirer également tout bois mort.",
+          "plante_id": "cypres_de_provence"
+        },
+        {
+          "categorie": "TAILLE",
+          "plante": "Mimosa d'hiver",
+          "action": "Dernière fenêtre pour la taille post-florale si non faite en mars.",
+          "plante_id": "mimosa_dhiver"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Bougainvillier",
+          "action": "Reprise progressive : 1×/semaine.",
+          "plante_id": "bougainvillier"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Euphorbe candélabre",
+          "action": "Reprise très prudente : 1 arrosage léger si sol totalement sec.",
+          "plante_id": "euphorbe_candelabre"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Cactus myrtille (cactus bleu)",
+          "action": "Très prudent : 1 arrosage léger si sol totalement sec.",
+          "plante_id": "cactus_myrtille_cactus_bleu"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Aeonium",
+          "action": "1×/2 semaines si sol totalement sec.",
+          "plante_id": "aeonium"
+        },
+        {
+          "categorie": "FERTILISATION",
+          "plante": "Yucca superbe",
+          "action": "Optionnel : apport léger de compost bien décomposé au pied (1 poignée).",
+          "plante_id": "yucca_superbe"
+        },
+        {
+          "categorie": "TRAITEMENT",
+          "plante": "Cycas du Japon",
+          "action": "Si cochenilles visibles : savon noir + huile blanche.",
+          "plante_id": "cycas_du_japon"
+        },
+        {
+          "categorie": "TRAITEMENT",
+          "plante": "Laurier-rose",
+          "action": "Si cochenilles visibles : savon noir + huile blanche.",
+          "plante_id": "laurier_rose"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Oranger",
+          "action": "PLEINE FLORAISON : fleurs blanches très parfumées (fleur d'oranger).",
+          "plante_id": "oranger"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Citronnier",
+          "action": "PLEINE FLORAISON : fleurs blanches très parfumées, boutons violacés.",
+          "plante_id": "citronnier"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Photinia Red Robin",
+          "action": "Début de floraison : corymbes blancs, odeur particulière.",
+          "plante_id": "photinia_red_robin"
+        },
+        {
+          "categorie": "NETTOYAGE",
+          "plante": "Mimosa d'hiver",
+          "action": "Arracher les drageons qui sortent loin du pied (plante traçante).",
+          "plante_id": "mimosa_dhiver"
+        },
+        {
+          "categorie": "NETTOYAGE",
+          "plante": "Euphorbe candélabre",
+          "action": "Désherbage autour de la base (sans toucher la plante).",
+          "plante_id": "euphorbe_candelabre"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Olivier",
+          "action": "Préparation florale. Vérifier l'état des feuilles (œil-de-paon).",
+          "plante_id": "olivier"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Cyprès de Provence",
+          "action": "Surveillance active du chancre : rameaux qui rougissent ou brunissent = couper 20 cm sous la zone atteinte et brûler.",
+          "plante_id": "cypres_de_provence"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Cyprès de Provence",
+          "action": "Attention au pollen allergène si personne sensible dans le foyer.",
+          "plante_id": "cypres_de_provence"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Palmier chanvre",
+          "action": "Surveillance active charançon rouge : trous dans le tronc, palmes qui s'effondrent. Inspecter chaque semaine.",
+          "plante_id": "palmier_chanvre"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Cycas du Japon",
+          "action": "Émergence de la NOUVELLE COURONNE de palmes au centre, spectaculaire.",
+          "plante_id": "cycas_du_japon"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Oranger",
+          "action": "Surveiller pucerons sur jeunes pousses et boutons.",
+          "plante_id": "oranger"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Citronnier",
+          "action": "Surveillance pucerons sur boutons et jeunes pousses.",
+          "plante_id": "citronnier"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Laurier-rose",
+          "action": "Redémarrage de la végétation, apparition des boutons floraux.",
+          "plante_id": "laurier_rose"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Photinia Red Robin",
+          "action": "Redémarrage de la végétation, belles pousses rouges printanières.",
+          "plante_id": "photinia_red_robin"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Bougainvillier",
+          "action": "Reprise de végétation, première pousses vertes.",
+          "plante_id": "bougainvillier"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Jasmin étoilé",
+          "action": "Redémarrage de la végétation, palisser les jeunes pousses.",
+          "plante_id": "jasmin_etoile"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Jasmin étoilé",
+          "action": "Surveillance pucerons possibles.",
+          "plante_id": "jasmin_etoile"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Yucca superbe",
+          "action": "Surveiller le redémarrage de la végétation.",
+          "plante_id": "yucca_superbe"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Euphorbe candélabre",
+          "action": "Reprise de croissance bien marquée à la pointe des tiges.",
+          "plante_id": "euphorbe_candelabre"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Cactus myrtille (cactus bleu)",
+          "action": "Suivre cicatrisation des coupes. Signes de reprise aux apex.",
+          "plante_id": "cactus_myrtille_cactus_bleu"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Aeonium",
+          "action": "Croissance active, couleurs intensifiées si soleil.",
+          "plante_id": "aeonium"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Echeveria",
+          "action": "Croissance active visible. Reprise arrosages modérés.",
+          "plante_id": "echeveria"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Lavande",
+          "action": "Reprise visible : pousses vertes sur les tiges taillées.",
+          "plante_id": "lavande"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Rosier buisson",
+          "action": "Débourrement et apparition des premiers boutons floraux.",
+          "plante_id": "rosier_buisson"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Rosier buisson",
+          "action": "Surveillance active pucerons sur boutons (eau savonneuse si invasion).",
+          "plante_id": "rosier_buisson"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Stipa cheveux d'ange",
+          "action": "Reprise visible : feuilles fines vert clair qui sortent de la base.",
+          "plante_id": "stipa_cheveux_dange"
+        }
+      ]
+    },
+    "05": {
+      "mois": "Mai",
+      "contexte": "Chaleurs douces qui s'installent. Mois-clé pour la mise en place du système d'arrosage estival.",
+      "actions": [
+        {
+          "categorie": "TAILLE",
+          "plante": "Photinia Red Robin",
+          "action": "MEILLEURE FENÊTRE de taille : après floraison, stimule les pousses rouges estivales.",
+          "plante_id": "photinia_red_robin"
+        },
+        {
+          "categorie": "TAILLE",
+          "plante": "Euphorbe candélabre",
+          "action": "Si taille nécessaire : GANTS, LUNETTES, manches longues obligatoires (sève toxique).",
+          "plante_id": "euphorbe_candelabre"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Olivier",
+          "action": "Arroser les jeunes sujets si printemps très sec.",
+          "plante_id": "olivier"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Oranger",
+          "action": "Intensifier : 2×/semaine minimum.",
+          "plante_id": "oranger"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Citronnier",
+          "action": "Intensifier : 2×/semaine minimum.",
+          "plante_id": "citronnier"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Bougainvillier",
+          "action": "Maintenir 1×/semaine, palisser les jeunes pousses sur le support.",
+          "plante_id": "bougainvillier"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Yucca superbe",
+          "action": "1er arrosage léger uniquement si mois très sec. 10 L au pied, en profondeur.",
+          "plante_id": "yucca_superbe"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Cactus myrtille (cactus bleu)",
+          "action": "1×/3 semaines si pas de pluie.",
+          "plante_id": "cactus_myrtille_cactus_bleu"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Rosier buisson",
+          "action": "Intensifier : 2×/semaine au pied, jamais sur feuilles.",
+          "plante_id": "rosier_buisson"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Olivier",
+          "action": "FLORAISON : petites grappes blanches très discrètes mais parfumées.",
+          "plante_id": "olivier"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Palmier chanvre",
+          "action": "Inflorescences jaunes possibles selon maturité du sujet.",
+          "plante_id": "palmier_chanvre"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Oranger",
+          "action": "Fin de floraison, début de la nouaison (petits fruits verts).",
+          "plante_id": "oranger"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Citronnier",
+          "action": "Fin de floraison, nouaison des petits fruits.",
+          "plante_id": "citronnier"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Photinia Red Robin",
+          "action": "Pleine floraison.",
+          "plante_id": "photinia_red_robin"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Jasmin étoilé",
+          "action": "DÉBUT DE FLORAISON étoilée et parfumée.",
+          "plante_id": "jasmin_etoile"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Echeveria",
+          "action": "Floraison possible : hampe arquée avec clochettes orangées.",
+          "plante_id": "echeveria"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Rosier buisson",
+          "action": "DÉBUT DE FLORAISON : première vague spectaculaire.",
+          "plante_id": "rosier_buisson"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Stipa cheveux d'ange",
+          "action": "Début de floraison : les premiers épis plumeux blonds apparaissent.",
+          "plante_id": "stipa_cheveux_dange"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Cyprès de Provence",
+          "action": "Saison à risque pour le chancre : inspecter régulièrement les rameaux et la silhouette.",
+          "plante_id": "cypres_de_provence"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Palmier chanvre",
+          "action": "Surveillance ravageurs continue.",
+          "plante_id": "palmier_chanvre"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Cycas du Japon",
+          "action": "Les nouvelles palmes se déploient progressivement, couleur vert tendre.",
+          "plante_id": "cycas_du_japon"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Mimosa d'hiver",
+          "action": "Redémarrage végétatif complet. Feuillage bleu-vert caractéristique.",
+          "plante_id": "mimosa_dhiver"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Laurier-rose",
+          "action": "Premiers boutons colorés, floraison imminente.",
+          "plante_id": "laurier_rose"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Aeonium",
+          "action": "Les rosettes commencent à se refermer = début de la dormance estivale.",
+          "plante_id": "aeonium"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Lavande",
+          "action": "Les épis floraux se préparent.",
+          "plante_id": "lavande"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Rosier buisson",
+          "action": "Surveillance marsonia si printemps humide.",
+          "plante_id": "rosier_buisson"
+        }
+      ]
+    },
+    "06": {
+      "mois": "Juin",
+      "contexte": "Début de la saison sèche. Beaucoup de plantes fleurissent. Premier gros test mistral + sécheresse.",
+      "actions": [
+        {
+          "categorie": "TAILLE",
+          "plante": "Photinia Red Robin",
+          "action": "Suite de la taille post-florale si non faite en mai.",
+          "plante_id": "photinia_red_robin"
+        },
+        {
+          "categorie": "TAILLE LÉGÈRE",
+          "plante": "Laurier-rose",
+          "action": "Supprimer les fleurs fanées au fur et à mesure.",
+          "plante_id": "laurier_rose"
+        },
+        {
+          "categorie": "TAILLE LÉGÈRE",
+          "plante": "Rosier buisson",
+          "action": "Supprimer les fleurs fanées au fur et à mesure pour la remontée.",
+          "plante_id": "rosier_buisson"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Palmier chanvre",
+          "action": "Arroser si canicule prolongée (seulement).",
+          "plante_id": "palmier_chanvre"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Oranger",
+          "action": "2-3×/semaine, arrosage profond au pied.",
+          "plante_id": "oranger"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Citronnier",
+          "action": "2-3×/semaine, arrosage profond au pied.",
+          "plante_id": "citronnier"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Bougainvillier",
+          "action": "Ne pas arroser davantage : un peu de stress hydrique stimule la floraison.",
+          "plante_id": "bougainvillier"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Jasmin étoilé",
+          "action": "Arrosage 1×/semaine si chaleur.",
+          "plante_id": "jasmin_etoile"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Yucca superbe",
+          "action": "Arrosage espacé : 1 fois toutes les 2-3 semaines si pas de pluie significative.",
+          "plante_id": "yucca_superbe"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Euphorbe candélabre",
+          "action": "1 arrosage toutes les 3 semaines si pas de pluie. Pas plus.",
+          "plante_id": "euphorbe_candelabre"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Echeveria",
+          "action": "1×/10 jours si sec. JAMAIS sur la rosette.",
+          "plante_id": "echeveria"
+        },
+        {
+          "categorie": "FERTILISATION",
+          "plante": "Oranger",
+          "action": "DEUXIÈME apport d'engrais agrumes.",
+          "plante_id": "oranger"
+        },
+        {
+          "categorie": "FERTILISATION",
+          "plante": "Citronnier",
+          "action": "DEUXIÈME apport d'engrais agrumes.",
+          "plante_id": "citronnier"
+        },
+        {
+          "categorie": "FERTILISATION",
+          "plante": "Rosier buisson",
+          "action": "Apport léger d'engrais rosiers pour relancer la floraison.",
+          "plante_id": "rosier_buisson"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Laurier-rose",
+          "action": "DÉBUT DE FLORAISON : juin jusqu'aux gelées.",
+          "plante_id": "laurier_rose"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Bougainvillier",
+          "action": "DÉBUT DE FLORAISON : bractées colorées apparaissent.",
+          "plante_id": "bougainvillier"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Jasmin étoilé",
+          "action": "PLEINE FLORAISON : parfum envoûtant, profiter matin et soir.",
+          "plante_id": "jasmin_etoile"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Yucca superbe",
+          "action": "Début de floraison possible : surveiller les hampes florales qui se développent.",
+          "plante_id": "yucca_superbe"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Lavande",
+          "action": "DÉBUT DE FLORAISON : premiers épis bleu-violet.",
+          "plante_id": "lavande"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Rosier buisson",
+          "action": "Pleine 1ère floraison.",
+          "plante_id": "rosier_buisson"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Stipa cheveux d'ange",
+          "action": "Pleine floraison : effet graphique maximal au mistral.",
+          "plante_id": "stipa_cheveux_dange"
+        },
+        {
+          "categorie": "RÉCOLTE",
+          "plante": "Lavande",
+          "action": "Récolte possible dès que les fleurs commencent à s'ouvrir (parfum maximal).",
+          "plante_id": "lavande"
+        },
+        {
+          "categorie": "SURVEILLANCE",
+          "plante": "Olivier",
+          "action": "Début de la période à risque pour la mouche de l'olive.",
+          "plante_id": "olivier"
+        },
+        {
+          "categorie": "PAILLAGE",
+          "plante": "Oranger",
+          "action": "Installer un paillage organique pour limiter l'évaporation.",
+          "plante_id": "oranger"
+        },
+        {
+          "categorie": "PAILLAGE",
+          "plante": "Citronnier",
+          "action": "Paillage organique épais contre l'évaporation.",
+          "plante_id": "citronnier"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Olivier",
+          "action": "Nouaison : les petites olives vertes se forment.",
+          "plante_id": "olivier"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Palmier chanvre",
+          "action": "Saison à risque maximal pour le charançon rouge.",
+          "plante_id": "palmier_chanvre"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Cycas du Japon",
+          "action": "Déploiement complet de la nouvelle couronne, durcissement progressif.",
+          "plante_id": "cycas_du_japon"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Mimosa d'hiver",
+          "action": "Pas de taille : les boutons floraux se forment dès maintenant pour l'hiver prochain.",
+          "plante_id": "mimosa_dhiver"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Cactus myrtille (cactus bleu)",
+          "action": "Surveillance pourriture dans les plaies cicatrisées.",
+          "plante_id": "cactus_myrtille_cactus_bleu"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Aeonium",
+          "action": "DORMANCE ESTIVALE installée : ne pas s'inquiéter, rosettes refermées.",
+          "plante_id": "aeonium"
+        }
+      ]
+    },
+    "07": {
+      "mois": "Juillet",
+      "contexte": "Mois le plus chaud et le plus sec. Priorité absolue : arrosages bien dimensionnés, plutôt le soir.",
+      "actions": [
+        {
+          "categorie": "TAILLE LÉGÈRE",
+          "plante": "Jasmin étoilé",
+          "action": "Taille légère post-florale possible pour stimuler nouvelles fleurs.",
+          "plante_id": "jasmin_etoile"
+        },
+        {
+          "categorie": "TAILLE LÉGÈRE",
+          "plante": "Rosier buisson",
+          "action": "Continuer à supprimer les fleurs fanées.",
+          "plante_id": "rosier_buisson"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Olivier",
+          "action": "Arrosage des jeunes sujets en canicule (15 L/pied toutes les 2 semaines).",
+          "plante_id": "olivier"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Palmier chanvre",
+          "action": "1-2×/semaine uniquement si sec prolongé, au pied.",
+          "plante_id": "palmier_chanvre"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Cycas du Japon",
+          "action": "1×/10 jours uniquement si canicule prolongée, au pied, JAMAIS au cœur.",
+          "plante_id": "cycas_du_japon"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Oranger",
+          "action": "Arrosage critique : 3×/semaine en canicule, 30-40 L par arrosage.",
+          "plante_id": "oranger"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Citronnier",
+          "action": "Arrosage critique : 3×/semaine, 30-40 L par pied.",
+          "plante_id": "citronnier"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Mimosa d'hiver",
+          "action": "Arroser les jeunes sujets (moins de 3 ans) 1×/2 semaines en canicule. Adulte : aucun.",
+          "plante_id": "mimosa_dhiver"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Laurier-rose",
+          "action": "1×/semaine si canicule et floraison abondante.",
+          "plante_id": "laurier_rose"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Photinia Red Robin",
+          "action": "1-2×/semaine uniquement si canicule prolongée.",
+          "plante_id": "photinia_red_robin"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Bougainvillier",
+          "action": "1×/semaine suffit, même en canicule.",
+          "plante_id": "bougainvillier"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Jasmin étoilé",
+          "action": "2×/semaine si canicule.",
+          "plante_id": "jasmin_etoile"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Yucca superbe",
+          "action": "1 fois toutes les 2-3 semaines au pied, arrosage profond plutôt que fréquent.",
+          "plante_id": "yucca_superbe"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Euphorbe candélabre",
+          "action": "Maintenir rythme très espacé. Arroser le soir, au pied.",
+          "plante_id": "euphorbe_candelabre"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Cactus myrtille (cactus bleu)",
+          "action": "Maintenir espacement. Jamais sur les tiges, au pied uniquement.",
+          "plante_id": "cactus_myrtille_cactus_bleu"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Aeonium",
+          "action": "AUCUN arrosage. La plante dort, arroser la tue.",
+          "plante_id": "aeonium"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Echeveria",
+          "action": "Espacer à 1×/15 jours en canicule. Protection soleil extrême.",
+          "plante_id": "echeveria"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Rosier buisson",
+          "action": "Arrosage critique : 2-3×/semaine, 10 L par pied, AU PIED.",
+          "plante_id": "rosier_buisson"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Laurier-rose",
+          "action": "Pleine floraison.",
+          "plante_id": "laurier_rose"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Bougainvillier",
+          "action": "PLEINE FLORAISON. Spectacle maximal.",
+          "plante_id": "bougainvillier"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Jasmin étoilé",
+          "action": "Continuation de la floraison.",
+          "plante_id": "jasmin_etoile"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Yucca superbe",
+          "action": "Pleine floraison : clochettes blanc crème, très spectaculaire.",
+          "plante_id": "yucca_superbe"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Lavande",
+          "action": "PLEINE FLORAISON : spectacle et parfum, pollinisateurs en abondance.",
+          "plante_id": "lavande"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Stipa cheveux d'ange",
+          "action": "Floraison continue. Aucun entretien nécessaire.",
+          "plante_id": "stipa_cheveux_dange"
+        },
+        {
+          "categorie": "RÉCOLTE",
+          "plante": "Lavande",
+          "action": "Meilleure période de récolte pour séchage ou distillation.",
+          "plante_id": "lavande"
+        },
+        {
+          "categorie": "SURVEILLANCE",
+          "plante": "Olivier",
+          "action": "POSER LES PIÈGES à mouche de l'olive (jaunes englués + phéromone).",
+          "plante_id": "olivier"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Oranger",
+          "action": "Surveiller chlorose (feuilles qui jaunissent) et cochenilles.",
+          "plante_id": "oranger"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Citronnier",
+          "action": "Surveillance chlorose et cochenilles.",
+          "plante_id": "citronnier"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Photinia Red Robin",
+          "action": "Surveillance entomosporiose (taches sur feuilles).",
+          "plante_id": "photinia_red_robin"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Euphorbe candélabre",
+          "action": "Surveiller cochenilles sur les côtes des tiges.",
+          "plante_id": "euphorbe_candelabre"
+        }
+      ]
+    },
+    "08": {
+      "mois": "Août",
+      "contexte": "Sécheresse maximale. Surveiller le stress hydrique. Éviter toute taille en pleine canicule.",
+      "actions": [
+        {
+          "categorie": "TAILLE",
+          "plante": "Lavande",
+          "action": "TAILLE POST-FLORALE : couper hampes fanées + 5 cm. Former une boule compacte.",
+          "plante_id": "lavande"
+        },
+        {
+          "categorie": "TAILLE LÉGÈRE",
+          "plante": "Laurier-rose",
+          "action": "Continuer suppression fleurs fanées pour prolonger.",
+          "plante_id": "laurier_rose"
+        },
+        {
+          "categorie": "TAILLE LÉGÈRE",
+          "plante": "Bougainvillier",
+          "action": "Supprimer les rameaux sans fleurs pour stimuler nouvelles pousses.",
+          "plante_id": "bougainvillier"
+        },
+        {
+          "categorie": "TAILLE LÉGÈRE",
+          "plante": "Jasmin étoilé",
+          "action": "Dernière taille post-florale. Palissage des pousses de l'été.",
+          "plante_id": "jasmin_etoile"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Palmier chanvre",
+          "action": "Maintien si canicule. PAS d'arrosage au cœur du palmier.",
+          "plante_id": "palmier_chanvre"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Cycas du Japon",
+          "action": "Maintien du rythme espacé. Observation feuillage.",
+          "plante_id": "cycas_du_japon"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Oranger",
+          "action": "Maintenir rythme estival, PAS le matin en plein soleil.",
+          "plante_id": "oranger"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Citronnier",
+          "action": "Maintenir rythme soutenu. Jamais en plein soleil à midi.",
+          "plante_id": "citronnier"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Photinia Red Robin",
+          "action": "Maintenir si sec persistant.",
+          "plante_id": "photinia_red_robin"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Yucca superbe",
+          "action": "Même rythme qu'en juillet : arrosage profond et espacé si canicule prolongée.",
+          "plante_id": "yucca_superbe"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Euphorbe candélabre",
+          "action": "Poursuite du rythme espacé.",
+          "plante_id": "euphorbe_candelabre"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Cactus myrtille (cactus bleu)",
+          "action": "1×/3 semaines si canicule prolongée.",
+          "plante_id": "cactus_myrtille_cactus_bleu"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Aeonium",
+          "action": "AUCUN arrosage. Observer simplement la survie des rosettes.",
+          "plante_id": "aeonium"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Rosier buisson",
+          "action": "Maintenir rythme soutenu. Paillage indispensable contre sécheresse.",
+          "plante_id": "rosier_buisson"
+        },
+        {
+          "categorie": "TRAITEMENT",
+          "plante": "Olivier",
+          "action": "Argile kaolinite possible (barrière physique) tous les 15 jours.",
+          "plante_id": "olivier"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Laurier-rose",
+          "action": "Floraison continue.",
+          "plante_id": "laurier_rose"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Bougainvillier",
+          "action": "Floraison continue.",
+          "plante_id": "bougainvillier"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Jasmin étoilé",
+          "action": "Floraison se termine.",
+          "plante_id": "jasmin_etoile"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Yucca superbe",
+          "action": "Fin de floraison pour certaines rosettes.",
+          "plante_id": "yucca_superbe"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Stipa cheveux d'ange",
+          "action": "Fin de floraison selon climat.",
+          "plante_id": "stipa_cheveux_dange"
+        },
+        {
+          "categorie": "SURVEILLANCE",
+          "plante": "Olivier",
+          "action": "Risque maximal mouche de l'olive. Vérifier les pièges chaque semaine.",
+          "plante_id": "olivier"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Cyprès de Provence",
+          "action": "Ne pas tailler en pleine canicule. Simple surveillance.",
+          "plante_id": "cypres_de_provence"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Oranger",
+          "action": "Les fruits ont la taille d'une balle de golf.",
+          "plante_id": "oranger"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Citronnier",
+          "action": "Fruits de la taille d'une balle de tennis.",
+          "plante_id": "citronnier"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Mimosa d'hiver",
+          "action": "Maintien de la surveillance. Pas d'intervention.",
+          "plante_id": "mimosa_dhiver"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Photinia Red Robin",
+          "action": "Maintien de la surveillance maladies.",
+          "plante_id": "photinia_red_robin"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Euphorbe candélabre",
+          "action": "Attention brûlures solaires si canicule extrême.",
+          "plante_id": "euphorbe_candelabre"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Echeveria",
+          "action": "Rosette supporte bien la chaleur si arrosage maîtrisé.",
+          "plante_id": "echeveria"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Rosier buisson",
+          "action": "Surveillance oïdium en fin d'été.",
+          "plante_id": "rosier_buisson"
+        }
+      ]
+    },
+    "09": {
+      "mois": "Septembre",
+      "contexte": "Premières pluies de fin d'été possibles. Floraisons tardives. Reprendre progressivement les tailles.",
+      "actions": [
+        {
+          "categorie": "TAILLE",
+          "plante": "Cyprès de Provence",
+          "action": "Fenêtre de taille d'automne ouverte : rafraîchir si nécessaire. Météo plus clémente qu'en été.",
+          "plante_id": "cypres_de_provence"
+        },
+        {
+          "categorie": "TAILLE",
+          "plante": "Photinia Red Robin",
+          "action": "Troisième fenêtre de taille pour relancer des pousses rouges avant l'hiver.",
+          "plante_id": "photinia_red_robin"
+        },
+        {
+          "categorie": "TAILLE LÉGÈRE",
+          "plante": "Yucca superbe",
+          "action": "Couper les hampes florales fanées à la base. Nettoyer les feuilles abîmées par l'été.",
+          "plante_id": "yucca_superbe"
+        },
+        {
+          "categorie": "TAILLE LÉGÈRE",
+          "plante": "Rosier buisson",
+          "action": "Continuer suppression fleurs fanées.",
+          "plante_id": "rosier_buisson"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Oranger",
+          "action": "Commencer à espacer les arrosages.",
+          "plante_id": "oranger"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Citronnier",
+          "action": "Commencer à espacer.",
+          "plante_id": "citronnier"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Laurier-rose",
+          "action": "Espacer progressivement.",
+          "plante_id": "laurier_rose"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Yucca superbe",
+          "action": "Arrêt progressif des arrosages avec les premières pluies.",
+          "plante_id": "yucca_superbe"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Euphorbe candélabre",
+          "action": "Diminuer progressivement : 1 seul arrosage léger dans le mois.",
+          "plante_id": "euphorbe_candelabre"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Cactus myrtille (cactus bleu)",
+          "action": "Commencer à espacer.",
+          "plante_id": "cactus_myrtille_cactus_bleu"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Aeonium",
+          "action": "Réveil progressif : reprise des arrosages 1×/semaine si très sec.",
+          "plante_id": "aeonium"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Echeveria",
+          "action": "Reprendre 1×/10 jours si sec.",
+          "plante_id": "echeveria"
+        },
+        {
+          "categorie": "FERTILISATION",
+          "plante": "Oranger",
+          "action": "TROISIÈME apport d'engrais agrumes (dernier de l'année).",
+          "plante_id": "oranger"
+        },
+        {
+          "categorie": "FERTILISATION",
+          "plante": "Citronnier",
+          "action": "TROISIÈME apport d'engrais (dernier de l'année).",
+          "plante_id": "citronnier"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Laurier-rose",
+          "action": "Floraison se poursuit.",
+          "plante_id": "laurier_rose"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Bougainvillier",
+          "action": "Floraison prolongée possible jusqu'aux premiers froids.",
+          "plante_id": "bougainvillier"
+        },
+        {
+          "categorie": "FLORAISON",
+          "plante": "Rosier buisson",
+          "action": "Nouvelle vague de floraison (rosiers remontants).",
+          "plante_id": "rosier_buisson"
+        },
+        {
+          "categorie": "PALISSAGE",
+          "plante": "Jasmin étoilé",
+          "action": "Palisser les dernières pousses de l'année avant l'automne.",
+          "plante_id": "jasmin_etoile"
+        },
+        {
+          "categorie": "NETTOYAGE",
+          "plante": "Stipa cheveux d'ange",
+          "action": "Retirer les épis fanés SI l'on veut limiter l'auto-semis (facultatif, esthétique).",
+          "plante_id": "stipa_cheveux_dange"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Olivier",
+          "action": "Les olives changent de couleur (vert → violet).",
+          "plante_id": "olivier"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Palmier chanvre",
+          "action": "Dernière saison active pour ravageurs. Inspecter la couronne.",
+          "plante_id": "palmier_chanvre"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Cycas du Japon",
+          "action": "Palmes matures, couleur vert foncé définitive.",
+          "plante_id": "cycas_du_japon"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Mimosa d'hiver",
+          "action": "Boutons floraux visibles (petites billes vertes) : la promesse de l'hiver prochain.",
+          "plante_id": "mimosa_dhiver"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Lavande",
+          "action": "Touffe en boule, feuillage gris-vert. Repos progressif.",
+          "plante_id": "lavande"
+        }
+      ]
+    }
+  },
+  "calendrier_interieur_saison": {
+    "printemps": {
+      "numero": "01",
+      "contexte": "reprise végétative dès mars. Lumière qui revient. Mois clé pour rempotage et reprise engrais.",
+      "actions": [
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Fougère",
+          "action": "Reprise active : 1×/semaine + vaporiser 2-3×/sem.",
+          "plante_id": "fougere_de_boston"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Sansevieria",
+          "action": "Reprise progressive : 1×/2 semaines.",
+          "plante_id": "sansevieria_cylindrique"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Ficus Tineke",
+          "action": "Reprise : 1×/semaine, surface sèche entre 2 arrosages.",
+          "plante_id": "ficus_elastica_tineke"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Dracaena (eau)",
+          "action": "Renouveler eau intégralement tous les 15 jours.",
+          "plante_id": "dracaena_sanderiana"
+        },
+        {
+          "categorie": "FERTILISATION",
+          "plante": "Fougère",
+          "action": "Engrais plantes vertes liquide tous les 15 jours.",
+          "plante_id": "fougere_de_boston"
+        },
+        {
+          "categorie": "FERTILISATION",
+          "plante": "Sansevieria",
+          "action": "Engrais cactus 1×/mois (très dilué).",
+          "plante_id": "sansevieria_cylindrique"
+        },
+        {
+          "categorie": "FERTILISATION",
+          "plante": "Ficus Tineke",
+          "action": "Engrais plantes vertes 1×/mois.",
+          "plante_id": "ficus_elastica_tineke"
+        },
+        {
+          "categorie": "FERTILISATION",
+          "plante": "Dracaena",
+          "action": "Engrais liquide TRÈS dilué 1×/mois.",
+          "plante_id": "dracaena_sanderiana"
+        },
+        {
+          "categorie": "ENTRETIEN",
+          "plante": "Toutes",
+          "action": "Période idéale REMPOTAGE si nécessaire (mars-avril).",
+          "plante_id": null
+        },
+        {
+          "categorie": "ENTRETIEN",
+          "plante": "Ficus Tineke",
+          "action": "TAILLE possible mars-avril pour ramifier (gants : latex).",
+          "plante_id": "ficus_elastica_tineke"
+        },
+        {
+          "categorie": "ENTRETIEN",
+          "plante": "Toutes",
+          "action": "Dépoussiérer les feuilles 1×/15 jours.",
+          "plante_id": null
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Toutes",
+          "action": "Vérifier reprise végétale, nouvelles feuilles.",
+          "plante_id": null
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Sansevieria",
+          "action": "Inspecter racines au rempotage : aucun signe de pourriture.",
+          "plante_id": "sansevieria_cylindrique"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Ficus Tineke",
+          "action": "Surveiller que la panachure se maintient (= assez de lumière).",
+          "plante_id": "ficus_elastica_tineke"
+        }
+      ]
+    },
+    "ete": {
+      "numero": "02",
+      "contexte": "chaleur + air souvent sec. Croissance maximale. Surveillance cochenilles intensive.",
+      "actions": [
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Fougère",
+          "action": "1-2×/semaine + vaporisations quotidiennes si > 26 °C.",
+          "plante_id": "fougere_de_boston"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Sansevieria",
+          "action": "1×/15-20 jours, attention pas plus.",
+          "plante_id": "sansevieria_cylindrique"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Ficus Tineke",
+          "action": "1×/semaine, plus si très chaud + vaporiser.",
+          "plante_id": "ficus_elastica_tineke"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Dracaena (eau)",
+          "action": "Renouveler eau tous les 15 jours, vérifier niveau.",
+          "plante_id": "dracaena_sanderiana"
+        },
+        {
+          "categorie": "FERTILISATION",
+          "plante": "Toutes",
+          "action": "Continuer la fertilisation au rythme du printemps.",
+          "plante_id": null
+        },
+        {
+          "categorie": "PROTECTION",
+          "plante": "Toutes",
+          "action": "ÉLOIGNER des fenêtres en plein soleil sud (brûlures).",
+          "plante_id": null
+        },
+        {
+          "categorie": "PROTECTION",
+          "plante": "Fougère",
+          "action": "Atmosphère humide impérative : grouper avec autres plantes.",
+          "plante_id": "fougere_de_boston"
+        },
+        {
+          "categorie": "PROTECTION",
+          "plante": "Ficus Tineke",
+          "action": "Tourner le pot 1×/semaine pour port homogène.",
+          "plante_id": "ficus_elastica_tineke"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Toutes",
+          "action": "Surveillance cochenilles : période d'expansion maximale.",
+          "plante_id": null
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Sansevieria",
+          "action": "Sortie possible sur terrasse en mi-ombre (sortie progressive).",
+          "plante_id": "sansevieria_cylindrique"
+        }
+      ]
+    },
+    "automne": {
+      "numero": "03",
+      "contexte": "ralentissement progressif. Rentrer les sujets sortis. Stop engrais.",
+      "actions": [
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Fougère",
+          "action": "Espacer : 1×/semaine.",
+          "plante_id": "fougere_de_boston"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Sansevieria",
+          "action": "Espacer : 1×/3 semaines.",
+          "plante_id": "sansevieria_cylindrique"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Ficus Tineke",
+          "action": "Espacer : 1×/10 jours.",
+          "plante_id": "ficus_elastica_tineke"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Dracaena (eau)",
+          "action": "Maintenir niveau, renouveler tous les 15 jours.",
+          "plante_id": "dracaena_sanderiana"
+        },
+        {
+          "categorie": "FERTILISATION",
+          "plante": "Toutes",
+          "action": "STOP fertilisation après mi-septembre.",
+          "plante_id": null
+        },
+        {
+          "categorie": "ENTRETIEN",
+          "plante": "Fougère",
+          "action": "Couper les frondes brunies à la base.",
+          "plante_id": "fougere_de_boston"
+        },
+        {
+          "categorie": "ENTRETIEN",
+          "plante": "Toutes",
+          "action": "Dépoussiérer les feuilles avant l'hiver.",
+          "plante_id": null
+        },
+        {
+          "categorie": "ENTRETIEN",
+          "plante": "Sansevieria",
+          "action": "Rentrer impérativement si sortie estivale (avant 12 °C nocturne).",
+          "plante_id": "sansevieria_cylindrique"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Toutes",
+          "action": "Surveiller cochenilles avant repos hivernal.",
+          "plante_id": null
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Ficus Tineke",
+          "action": "Si feuilles tombent : vérifier substrat, courants d'air.",
+          "plante_id": "ficus_elastica_tineke"
+        }
+      ]
+    },
+    "hiver": {
+      "numero": "04",
+      "contexte": "chauffage = air sec. Repos végétatif. Loin des radiateurs et fenêtres froides.",
+      "actions": [
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Fougère",
+          "action": "1×/10 jours selon chauffage. Attention air sec.",
+          "plante_id": "fougere_de_boston"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Sansevieria",
+          "action": "1×/mois ou MOINS — quasi-arrêt.",
+          "plante_id": "sansevieria_cylindrique"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Ficus Tineke",
+          "action": "1×/15 jours, laisser sécher 3 cm en surface.",
+          "plante_id": "ficus_elastica_tineke"
+        },
+        {
+          "categorie": "ARROSAGE",
+          "plante": "Dracaena (eau)",
+          "action": "Maintenir niveau, vérifier tous les 15 jours.",
+          "plante_id": "dracaena_sanderiana"
+        },
+        {
+          "categorie": "FERTILISATION",
+          "plante": "Toutes",
+          "action": "PAS d'engrais. Repos hivernal.",
+          "plante_id": null
+        },
+        {
+          "categorie": "PROTECTION",
+          "plante": "Toutes",
+          "action": "ÉLOIGNER des radiateurs (air desséché).",
+          "plante_id": null
+        },
+        {
+          "categorie": "PROTECTION",
+          "plante": "Toutes",
+          "action": "ÉLOIGNER des fenêtres froides (gel possible feuilles).",
+          "plante_id": null
+        },
+        {
+          "categorie": "PROTECTION",
+          "plante": "Fougère",
+          "action": "Vaporisations ++ pour compenser air sec du chauffage.",
+          "plante_id": "fougere_de_boston"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Toutes",
+          "action": "Repos végétatif : PAS d'inquiétude si pas de nouvelles feuilles.",
+          "plante_id": null
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Sansevieria",
+          "action": "Si feuille mollit : ARRÊTER l'arrosage immédiatement.",
+          "plante_id": "sansevieria_cylindrique"
+        },
+        {
+          "categorie": "OBSERVATION",
+          "plante": "Toutes",
+          "action": "Dépoussiérer 1×/mois (chiffon humide), poussière + sec = problème.",
+          "plante_id": null
+        }
+      ]
+    }
+  }
+}
