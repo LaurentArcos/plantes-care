@@ -42,7 +42,7 @@ export default async function PlantePage({ params }: { params: Promise<{ id: str
       {/* Lien retour */}
       <Link
         href="/plantes"
-        className="inline-block text-sm text-stone-500 transition hover:text-stone-800"
+        className="inline-block py-2 -my-2 text-sm text-stone-500 transition hover:text-stone-800"
       >
         ← Toutes les plantes
       </Link>
@@ -69,14 +69,14 @@ export default async function PlantePage({ params }: { params: Promise<{ id: str
       {plante.photos.length > 0 && (
         <Section title="Photos">
           <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
-            {plante.photos.map((photo) => (
+            {plante.photos.map((photo, i) => (
               <li
                 key={photo}
                 className="relative aspect-square overflow-hidden rounded-lg bg-stone-100"
               >
                 <Image
                   src={`/photos/${photo}`}
-                  alt={`${plante.nom} — ${photo}`}
+                  alt={`${plante.nom}, photo ${i + 1}`}
                   fill
                   sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
                   className="object-cover"
@@ -162,7 +162,7 @@ export default async function PlantePage({ params }: { params: Promise<{ id: str
                     ))}
                   </ul>
                 ) : (
-                  <p className="text-sm italic text-stone-400">Aucune action</p>
+                  <p className="text-sm italic text-stone-500">Aucune action</p>
                 )}
               </div>
             );

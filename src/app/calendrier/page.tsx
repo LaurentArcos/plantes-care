@@ -45,7 +45,7 @@ export default function CalendrierPage() {
 
                 <p className="grow text-sm leading-relaxed text-stone-500">{extrait}</p>
 
-                <div className="mt-3 text-xs font-medium text-stone-400">
+                <div className="mt-3 text-xs font-medium text-stone-500">
                   {actions.length} action{actions.length !== 1 ? 's' : ''}
                 </div>
               </Link>
